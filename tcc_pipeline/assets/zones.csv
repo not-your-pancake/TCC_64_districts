@@ -1,0 +1,65 @@
+district,zone_id,zone_name,assignment_status,is_exemplar
+Bagerhat,3,3. Southwest Hot-Dry Zone (Drought or Saline),provisional,False
+Bandarban,6,6. Hill Tract Zone (Elevated Terrain),confirmed,False
+Barguna,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Barisal,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Bhola,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Bogra,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),confirmed,False
+Brahmanbaria,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Chandpur,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Chittagong,4,4. Coastal Humid Heat Zone (Coastal Belt),confirmed,True
+Chuadanga,3,3. Southwest Hot-Dry Zone (Drought or Saline),provisional,False
+Comilla,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Cox_s Bazar,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Dhaka,2,2. Central Urban Heat Zone (Urban Heat-Island Region),confirmed,True
+Dinajpur,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Faridpur,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Feni,4,4. Coastal Humid Heat Zone (Coastal Belt),confirmed,False
+Gaibandha,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Gazipur,2,2. Central Urban Heat Zone (Urban Heat-Island Region),confirmed,False
+Gopalganj,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Habiganj,5,5. Haor or Wetland Humid Zone (Haor Basin),confirmed,False
+Jamalpur,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Jessore,3,3. Southwest Hot-Dry Zone (Drought or Saline),confirmed,False
+Jhalokati,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Jhenaidah,3,3. Southwest Hot-Dry Zone (Drought or Saline),provisional,False
+Joypurhat,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Khagrachhari,6,6. Hill Tract Zone (Elevated Terrain),confirmed,True
+Khulna,3,3. Southwest Hot-Dry Zone (Drought or Saline),confirmed,False
+Kishoreganj,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Kurigram,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Kushtia,3,3. Southwest Hot-Dry Zone (Drought or Saline),confirmed,True
+Lakshmipur,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Lalmonirhat,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Madaripur,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Magura,3,3. Southwest Hot-Dry Zone (Drought or Saline),provisional,False
+Manikganj,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Meherpur,3,3. Southwest Hot-Dry Zone (Drought or Saline),provisional,False
+Moulvibazar,5,5. Haor or Wetland Humid Zone (Haor Basin),confirmed,False
+Munshiganj,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Mymensingh,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Naogaon,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Narail,3,3. Southwest Hot-Dry Zone (Drought or Saline),provisional,False
+Narayanganj,2,2. Central Urban Heat Zone (Urban Heat-Island Region),confirmed,False
+Narsingdi,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Natore,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Nawabganj,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Netrakona,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Nilphamari,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Noakhali,4,4. Coastal Humid Heat Zone (Coastal Belt),confirmed,False
+Pabna,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),confirmed,False
+Panchagarh,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Patuakhali,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Pirojpur,4,4. Coastal Humid Heat Zone (Coastal Belt),provisional,False
+Rajbari,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Rajshahi,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),confirmed,True
+Rangamati,6,6. Hill Tract Zone (Elevated Terrain),confirmed,False
+Rangpur,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Satkhira,3,3. Southwest Hot-Dry Zone (Drought or Saline),provisional,False
+Shariatpur,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Sherpur,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Sirajganj,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False
+Sunamganj,5,5. Haor or Wetland Humid Zone (Haor Basin),provisional,False
+Sylhet,5,5. Haor or Wetland Humid Zone (Haor Basin),confirmed,True
+Tangail,2,2. Central Urban Heat Zone (Urban Heat-Island Region),provisional,False
+Thakurgaon,1,1. Northwest Extreme Heat Zone (Dry Hot Plains),provisional,False

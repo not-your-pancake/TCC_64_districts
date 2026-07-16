@@ -1,0 +1,6 @@
+condition,n,exact,adj,exact_acc,adj_acc
+Dew-point moisture stress,704,613,704,87.1,100.0
+Heat-index comfort,704,632,704,89.8,100.0
+UV (WHO),704,574,704,81.5,100.0
+"WBGT (shade, indoor)",704,625,704,88.8,100.0
+"WBGT (sun, outdoor)",704,592,704,84.1,100.0

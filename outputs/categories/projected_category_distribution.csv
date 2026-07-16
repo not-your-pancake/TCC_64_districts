@@ -1,0 +1,25 @@
+condition,category,n_district_months,pct
+Heat-index comfort,Comfortable,581,37.8
+Heat-index comfort,Caution,157,10.2
+Heat-index comfort,Extreme Caution,796,51.8
+Heat-index comfort,Danger,2,0.1
+Heat-index comfort,Extreme Danger,0,0.0
+"WBGT (sun, outdoor)",Low,907,59.0
+"WBGT (sun, outdoor)",Moderate,569,37.0
+"WBGT (sun, outdoor)",High,60,3.9
+"WBGT (sun, outdoor)",Extreme,0,0.0
+"WBGT (shade, indoor)",Low,1225,79.8
+"WBGT (shade, indoor)",Moderate,311,20.2
+"WBGT (shade, indoor)",High,0,0.0
+"WBGT (shade, indoor)",Extreme,0,0.0
+UV (WHO),Low,0,0.0
+UV (WHO),Moderate,64,4.2
+UV (WHO),High,1159,75.5
+UV (WHO),Very High,313,20.4
+UV (WHO),Extreme,0,0.0
+Dew-point moisture stress,Dry,0,0.0
+Dew-point moisture stress,Comfortable,303,19.7
+Dew-point moisture stress,Slightly Humid,101,6.6
+Dew-point moisture stress,Humid,250,16.3
+Dew-point moisture stress,Very Humid / Oppressive,183,11.9
+Dew-point moisture stress,Extremely Oppressive,699,45.5
