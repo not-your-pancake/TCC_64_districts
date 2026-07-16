@@ -1,0 +1,577 @@
+zone_name,variable,month,mean,min,max
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,1,0.08994545661200859,0.0,1.3386066452691967
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,2,2.7098518335333805,1.8179688582319145,4.583499900400092
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,3,7.4062827731785115,6.48739227094816,8.972328692245721
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,4,11.2391085872769,9.7110680484711,12.628056848668985
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,5,11.361379108394548,10.201839073679631,12.30987382237667
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,6,12.114517309287095,10.829695129237074,13.443584434736591
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,7,12.406603423006313,11.849147313870787,12.80848119807113
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,8,12.246747410855118,11.531369735637876,12.472817207179258
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,9,11.973811634176048,11.556078946584382,12.162364321476577
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,10,9.878628219417388,8.889495430777451,10.6038551199039
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,11,6.268295643449484,5.202504049732639,7.498153285098166
+1. Northwest Extreme Heat Zone (Dry Hot Plains),cdd,12,2.1421109941945797,1.2318462176363738,3.435256447607067
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,1,16.436171250819648,15.70605572561611,18.67331676381914
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,2,19.989755288565586,19.03690410780483,22.115779054848247
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,3,25.302130940786643,24.51989964677297,27.67719565969268
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,4,32.60674853651386,30.41103368253045,35.53142198818376
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,5,34.5618223508353,32.68095889794339,36.98481408392332
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,6,37.28691173112365,34.71890921528296,40.5713822066468
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,7,38.763794145648724,35.16475606603011,39.907641301463045
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,8,38.1928208793354,34.3915456201302,38.76324574931522
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,9,37.46944160108907,34.62675770412436,38.08544977410763
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,10,30.86256402479904,29.00784911799119,32.24766028034483
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,11,23.9826305014124,23.128295575047808,25.59899696973347
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heat_index,12,19.225721017338916,18.407860345485297,21.08374212154392
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,1,4.287022285543394e-08,2.4014595758478426e-08,1.5571946433927734e-07
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,2,4.047836850416838e-07,1.958003316501998e-07,1.3621250468095018e-06
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,3,1.182270671790219e-05,6.194100714136933e-06,4.5264271073438834e-05
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,4,0.006333721819215312,0.0006327985898462138,0.0247393981297016
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,5,0.02139760325567255,0.004214107136388994,0.07384318382969232
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,6,0.13818830379270933,0.018761010143772676,0.4329191217200222
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,7,0.21393390459384384,0.024696420639295384,0.334479073444117
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,8,0.1580493467075338,0.012255373498581513,0.19637217538031543
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,9,0.10373997700059136,0.0141781176048954,0.1375137884878227
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,10,0.0015762665288110067,0.00041858429106902544,0.0032121335569163688
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,11,4.6945240504174775e-06,2.5777188964268994e-06,1.2224217003010623e-05
+1. Northwest Extreme Heat Zone (Dry Hot Plains),heatstroke_hazard,12,2.3843228621165107e-07,1.3173576999894417e-07,7.109636346717713e-07
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,1,79.9522344977264,71.76257949617548,84.14095473652323
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,2,72.41943823747135,63.12223673491427,77.41470964458067
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,3,69.31098074109516,61.13997820230482,74.5081572086495
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,4,71.64615504375499,64.30452420456653,77.5062427407869
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,5,79.3448289821699,71.70324238221146,82.92575937922531
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,6,82.81354001947679,75.59578203286212,85.64691716299254
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,7,83.51057113183816,76.2876286851421,85.84209099048198
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,8,83.7748985875166,76.63063861807657,85.56599895768599
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,9,84.21475488056213,75.94259658404701,85.7809996466058
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,10,82.47563865107308,72.7919930997778,85.41494598530677
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,11,78.21205233575772,68.7050653612557,83.18275958521632
+1. Northwest Extreme Heat Zone (Dry Hot Plains),humidity,12,79.52467643975868,71.81681603978821,83.99726150437758
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,1,16.629976378829408,15.967558655871594,18.85814592856273
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,2,20.03931612235197,19.15537902463533,22.192756147568627
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,3,24.899954028487386,24.24244752836433,26.61434507932686
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,4,28.797539881399377,27.49461319172782,30.14925115445821
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,5,28.98791705237102,28.045269800075957,29.823186064271546
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,6,29.620711351729515,28.610773850874565,30.79988819980089
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,7,30.014105381692563,29.46257562284308,30.323222092479583
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,8,29.815710987097216,29.140769997782403,30.00672632071131
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,9,29.558893618545707,29.288665105518376,29.687794575991635
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,10,27.365547529147793,26.57158872331922,28.137681476372848
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,11,23.531701233718035,22.775628649444307,25.22679619875819
+1. Northwest Extreme Heat Zone (Dry Hot Plains),temperature,12,19.176079817445146,18.458924138760114,21.048154275206574
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,1,14.98887414108549,14.342569406308119,16.459578683788973
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,2,17.642974659119993,16.8642452515466,18.840500780828222
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,3,21.99015966015215,21.323092720868964,22.866629349810665
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,4,25.943181913375692,24.944130016065362,27.136192559979946
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,5,26.936408271997898,26.359099566171764,27.762767179771544
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,6,27.913790839391375,27.108677068776377,28.880762416890654
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,7,28.37323649834494,27.07786334806348,28.718635320999088
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,8,28.207033261391583,26.803394317729435,28.391098191058227
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,9,28.000827153178356,26.873643518962787,28.213170574459618
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,10,25.676794544746684,24.928457797395595,26.24699379805318
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,11,21.533239062929212,20.723222086526988,22.24377101497256
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_shade,12,17.427291529885395,16.639052794990405,18.557705715319955
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,1,15.85352550572141,15.188251319039042,17.34211862174876
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,2,18.679282552009244,17.878678150251197,19.877569349186537
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,3,23.197363772604195,22.512836966094977,24.08011499069277
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,4,27.23433697484572,26.13739552883517,28.479619961383936
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,5,28.0478257299436,27.37438828141885,28.94946466609069
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,6,28.816569159847873,27.971257680547694,29.94765341591416
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,7,29.233264739470346,27.984384149572964,29.658637873859554
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,8,29.038319192497855,27.597690707681835,29.248886314519332
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,9,28.844556083402637,27.758138082351003,29.062180521130905
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,10,26.539950718782734,25.82592569831258,27.117123701125955
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,11,22.411546243556774,21.625000095464635,23.124944173780317
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wbgt_sun,12,18.22892421692212,17.445081434096956,19.369865447721203
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,1,14.285544610623813,13.646145442209487,15.431621293171652
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,2,16.615971174877718,15.882330777365713,17.49023360419158
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,3,20.743104930865623,20.0637308822095,21.66043891534418
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,4,24.719885641365543,23.729251949544114,25.910950116139954
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,5,26.057190223266563,25.545394659854765,26.879730514985834
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,6,27.182253476960746,26.053566370632467,28.05827993850055
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,7,27.670006976910248,26.05584380172937,28.030955276078878
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,8,27.517599950374883,25.801661883421026,27.725428533211637
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,9,27.33308438230664,25.838634267581817,27.592449063039506
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,10,24.95304326571764,24.224258829142613,25.580747909061042
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,11,20.67675527544829,19.843619273848137,21.469803102131163
+1. Northwest Extreme Heat Zone (Dry Hot Plains),wet_bulb,12,16.677810835216935,15.859107933374817,17.49037061822569
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,1,0.9432711997213893,0.0,1.5192251544086375
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,2,4.1437486346976,3.0500186755252727,4.721561225369639
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,3,8.391779714098115,7.062549009766133,8.953904876763126
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,4,12.223181896541984,10.908396366584123,12.999731315894508
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,5,11.892860891505565,10.952940613062404,12.695111603787819
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,6,12.000421108126138,11.356762887836679,12.776938208304268
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,7,12.026005452348999,11.824628378376108,12.567285276232923
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,8,11.71274035117225,11.454467142309326,12.255632863163868
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,9,11.797482906811064,11.59920647823649,12.122423435234904
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,10,10.489052559875116,9.982821225350392,10.821014555092152
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,11,7.134541041611406,6.540040807242054,7.676201865081696
+2. Central Urban Heat Zone (Urban Heat-Island Region),cdd,12,3.04588427308107,2.400728883582305,3.668609248695212
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,1,18.129623201775757,16.582033630675276,18.755347562386895
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,2,21.61558565227004,20.32226862128653,22.133682447598872
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,3,26.90935561556877,25.123884942489838,27.758776888601325
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,4,33.92485194746065,32.34264168270016,36.77637169640416
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,5,34.84139296154058,33.827176850292275,38.29261673398688
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,6,35.85214006036807,35.03125436256127,40.100798044023236
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,7,36.17303316601664,35.13037557249895,39.10970854689326
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,8,35.39498993056862,34.33980982267265,38.20139095771417
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,9,35.556333041119885,34.517818092112336,37.72396220146376
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,10,31.4777977761559,31.05167380284881,33.15684376131216
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,11,25.148579367137888,24.140372764985198,25.76728160733534
+2. Central Urban Heat Zone (Urban Heat-Island Region),heat_index,12,20.545941419709077,19.308833876378387,21.196723313800035
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,1,1.1916483971274444e-07,4.17006785916278e-08,1.639787240304855e-07
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,2,1.0722104148076097e-06,4.400390417429457e-07,1.377576010110253e-06
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,3,3.486149991637414e-05,9.062323874524712e-06,5.775472388732983e-05
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,4,0.011992402698043145,0.0034082849999922046,0.06532440904110934
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,5,0.02340875629616796,0.00862697705885389,0.15373508225446808
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,6,0.055277713365771,0.019557816032989644,0.36205102925790345
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,7,0.06378863206632956,0.02418002442592791,0.23312072198071854
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,8,0.03956427870177623,0.011868180899424575,0.14641632006197483
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,9,0.039842494057625286,0.013253162845591145,0.11269271720177731
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,10,0.0020877718025781246,0.0015147813784050317,0.005676493990689629
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,11,9.734226273862635e-06,4.876811383216202e-06,1.3591338470233827e-05
+2. Central Urban Heat Zone (Urban Heat-Island Region),heatstroke_hazard,12,5.417735493214244e-07,2.323861907894649e-07,7.634132800141413e-07
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,1,75.16725914263752,71.10605931438558,81.7080301835357
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,2,66.94498850127741,62.607496258936095,74.77345737221424
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,3,65.11193428178919,60.91065475290989,73.81035239742444
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,4,68.11861776460756,63.98050369722327,77.5237085965273
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,5,74.86123006106001,71.36998192970296,82.22321699013976
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,6,78.62532038273142,75.18033340209948,85.3326008370254
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,7,79.15597724341194,75.9209534389916,85.61902447616045
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,8,79.43583897684536,76.2443066843633,85.88055615777441
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,9,79.11884741494366,75.42589588076785,85.74524415518405
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,10,76.72959485717122,72.27487077776917,85.28957552479906
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,11,73.1030971023942,67.97681931205875,81.9294795645954
+2. Central Urban Heat Zone (Urban Heat-Island Region),humidity,12,75.49238407785255,71.21543509470985,82.51109870200095
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,1,18.283060900753735,16.738867571441965,18.942234722154726
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,2,21.64729278511416,20.313694783535446,22.221250546216147
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,3,26.057479715971777,24.680081830146946,26.635996461976973
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,4,29.736710350617628,28.397257977393075,30.31449255248634
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,5,29.477210995150607,28.53078543201136,30.291367779779314
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,6,29.501788659484667,28.815807821784873,30.379395460767533
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,7,29.55439467904416,29.395117655869445,30.131961574805295
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,8,29.255117431626267,29.01174295379213,29.81232823810631
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,9,29.344145262851324,29.15920187547499,29.594451952696737
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,10,27.958361373571876,27.36444734001779,28.326439654713
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,11,24.71292792779579,23.636965007464745,25.393767403011214
+2. Central Urban Heat Zone (Urban Heat-Island Region),temperature,12,20.471996214049128,19.21680779587548,21.165139654236718
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,1,16.19077702260131,15.17754859471782,16.510681886841155
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,2,18.67455347990236,18.011136002047493,19.26676098601728
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,3,22.65317133388553,22.105459128416996,23.375976194734434
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,4,26.448799247914383,25.972165541081182,27.6077078414811
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,5,26.93474345114191,26.71033770364044,28.17535483222604
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,6,27.359319949596035,27.052676885428728,28.773508396863754
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,7,27.468022445781664,27.07006095171004,28.481964862637167
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,8,27.20720870695496,26.79007717686475,28.222661620693884
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,9,27.259388095440492,26.821053133995928,28.10397009803541
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,10,25.665997493793245,25.35206475301495,26.59842362544464
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,11,22.176631301435346,21.788738208539808,22.343324997896833
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_shade,12,18.32618832370536,17.59405163441906,18.615268397598573
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,1,17.093261635158225,16.039116264280523,17.47650820626726
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,2,19.727172686687865,19.04650152105708,20.339498041297844
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,3,23.849347273001104,23.303086443349258,24.59991599770146
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,4,27.70158670088713,27.15168076711774,28.853818676817085
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,5,28.032901346790478,27.746292672239303,29.30472470532729
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,6,28.253026865623628,27.88368228779519,29.693128337230657
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,7,28.339086514727327,27.96516285134254,29.351699232878282
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,8,28.01697418659756,27.56837013572246,29.04200659634987
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,9,28.131787129981376,27.695203842907986,28.93255298007891
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,10,26.5421875536369,26.19392767722171,27.503961788678133
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,11,23.06804969856373,22.655490897060968,23.224587964427364
+2. Central Urban Heat Zone (Urban Heat-Island Region),wbgt_sun,12,19.14208253829149,18.388866456061443,19.425965321977458
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,1,15.294083931964554,14.508411890407473,15.52080139266821
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,2,17.40052234909731,17.024092261739533,18.256118911382202
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,3,21.194182027277144,20.89959246173353,22.222874971132857
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,4,25.039694489612998,24.809046831397758,26.449171417572096
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,5,25.845114503709613,25.47328919179185,27.2684921404175
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,6,26.441119073929478,25.98757776552739,28.085271083762134
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,7,26.573862917240596,26.042611115880376,27.774823414565113
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,8,26.32953353923869,25.78377252149482,27.541375927517134
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,9,26.365920737978712,25.76261246748932,27.477697372125697
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,10,24.68355583103098,24.220698056101902,25.930020065377725
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,11,21.089647032995156,20.82565019597878,21.51545938643455
+2. Central Urban Heat Zone (Urban Heat-Island Region),wet_bulb,12,17.406556370700887,16.898584708080598,17.55706831010867
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,1,0.5898895028067235,0.0,1.4227582078205465
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,2,4.116495757905418,3.1419303191586554,5.360541096113039
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,3,8.725667262969939,8.19181957695996,9.555576254707184
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,4,13.054323623020807,12.646657492719935,13.725015516193535
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,5,12.679746009862573,12.34449701282246,13.14696657980329
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,6,13.197597063207308,12.93230336852601,13.400863133177268
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,7,12.39498105629189,12.091095822351514,12.583912615586186
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,8,11.995116439297421,11.754999877642934,12.186645114866286
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,9,12.045575355846546,11.891791570630565,12.167966857059469
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,10,10.647332418964922,10.311439319768402,11.005770276010253
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,11,6.6241805721256055,6.003378185484731,7.244050758695732
+3. Southwest Hot-Dry Zone (Drought or Saline),cdd,12,2.562554518408163,1.6849018227511472,3.378613554126387
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,1,17.507904807364895,16.62538816200159,18.951493792459175
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,2,21.556324318854134,20.649938188038668,23.297144386426744
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,3,27.119238103429797,26.17220336786616,29.21296752710481
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,4,36.387341003938495,35.37462004798776,37.71925014084685
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,5,37.70791359498421,36.92161780203829,38.95673997634118
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,6,40.61029004757471,40.128760131189495,41.26634736577081
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,7,39.055205797369425,37.83931707714186,39.59536663164086
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,8,37.77124601643324,36.63777917603804,38.29337221735881
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,9,37.66862318874055,36.88097811027538,38.316061021750116
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,10,32.83902872090299,32.0607783347583,33.945005706721616
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,11,24.485424753850197,23.952078697189627,25.432797624442493
+3. Southwest Hot-Dry Zone (Drought or Saline),heat_index,12,19.833223409312218,19.155929672796837,20.98310200887556
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,1,8.4165731446088e-08,4.285572747457231e-08,1.855429429148445e-07
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,2,1.1075136409976408e-06,5.409372728056377e-07,2.8670325513148157e-06
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,3,8.841046553402962e-05,1.7540107347654106e-05,0.0002976676789708208
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,4,0.05459790909100447,0.02247200233664451,0.11237798660722266
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,5,0.11828086443055978,0.07115187579923331,0.21632901024741802
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,6,0.43959609122159493,0.3661261361224523,0.5418483750516311
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,7,0.2319422162981188,0.12014148804902942,0.2921939744380998
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,8,0.11833147872926997,0.06019748169432505,0.15382427807213572
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,9,0.11129904565172051,0.06947199704576482,0.155688613128864
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,10,0.005568457238271716,0.002856027267639387,0.011607076796635678
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,11,6.365598182979276e-06,4.331323629314905e-06,1.1008837602630975e-05
+3. Southwest Hot-Dry Zone (Drought or Saline),heatstroke_hazard,12,3.4945648505810743e-07,2.1104580160171345e-07,6.672715743899256e-07
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,1,80.0538501143995,76.99764737010557,82.06524627351037
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,2,73.08744314182488,70.53218882535835,76.7277312748638
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,3,70.47248103356456,68.25974338540361,73.9689579822253
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,4,71.10650832431824,65.91158899260546,73.51753565853834
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,5,77.56446182357381,74.21423538031084,79.2158496699715
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,6,82.26902455900397,80.58732961915153,83.34088469531513
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,7,84.94688438611713,84.5133654610149,85.96863148452397
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,8,85.54394779163832,85.11647931135394,87.24601606770861
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,9,85.19896064989805,84.44110655895564,86.5066191366218
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,10,82.68635534758896,80.37661660579808,83.54537978398079
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,11,78.21096530088607,71.42920690369237,80.39015502397274
+3. Southwest Hot-Dry Zone (Drought or Saline),humidity,12,79.3956948830754,71.8991785107285,81.81636136666424
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,1,17.601867524181834,16.756528667679383,18.98676737375331
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,2,21.447613104177613,20.60170827692499,23.090831828674894
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,3,26.194634831599632,25.70638164792115,27.304653778460676
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,4,30.42140003138088,29.972734674094102,31.29648854014596
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,5,30.247088046224263,29.824714459395093,31.013800635625362
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,6,30.689147900414685,30.44236382830191,31.053344443629822
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,7,29.978728974141575,29.57985916337031,30.151119429881287
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,8,29.543433496348154,29.19658670834871,29.72574046942927
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,9,29.542482203003374,29.298537265767514,29.64401930305686
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,10,28.116787226082835,27.825136396140365,28.674208392467378
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,11,23.98881272110541,23.487474698275676,25.01104191895099
+3. Southwest Hot-Dry Zone (Drought or Saline),temperature,12,19.731416402655277,19.09123012460715,20.954708194935236
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,1,15.942686269497463,15.267505000467157,17.029811304676784
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,2,19.054382642171124,18.313121415457864,20.389163454052373
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,3,23.34145245737208,22.822141671634743,24.199937751884505
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,4,27.43802900518682,27.049495306469275,27.932635226127694
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,5,27.970552874979525,27.73773845043237,28.348205643292665
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,6,28.90207785383861,28.774719816594953,29.077791043884513
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,7,28.488837466910034,28.14185562854079,28.641976563442967
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,8,28.12360675554847,27.783091035955565,28.287548188268506
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,9,28.087061861137112,27.851892989305064,28.299427149982527
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,10,26.433379649491325,26.136928669839257,26.84719769840457
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,11,21.976214007581046,21.55796701017845,22.508467150653864
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_shade,12,17.954400084011212,17.423507094150636,18.649713972580226
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,1,16.825695180174836,16.13714975666662,17.921528427704963
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,2,20.09655703803812,19.364223141855547,21.42348032854192
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,3,24.54530432907651,24.04227896932965,25.381811434884533
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,4,28.760976570374233,28.4035191800009,29.23548259448842
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,5,29.155625038600714,28.92539470952098,29.52355007904695
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,6,29.91143348855701,29.69474399759956,30.099833368505355
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,7,29.397456956314848,29.009843856765855,29.576207692249714
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,8,28.935509654969557,28.612716435184794,29.125615594399196
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,9,28.943674157625036,28.72771819221054,29.131761239871445
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,10,27.30778813033661,27.00720163774899,27.74378940570186
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,11,22.85750249324589,22.430701443950923,23.407914013415095
+3. Southwest Hot-Dry Zone (Drought or Saline),wbgt_sun,12,18.77696078093492,18.239182492231336,19.488049005021644
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,1,15.231608588918448,14.575612301506249,16.191115846501134
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,2,18.02871244416834,17.25812172360059,19.23130557921415
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,3,22.11866001127456,21.5339401835085,23.118967762647763
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,4,26.159441422532222,25.732247646817058,26.763598578476767
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,5,26.994894944446067,26.696825653871052,27.23268722525935
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,6,28.136190691020296,28.03186503417452,28.231125301136526
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,7,27.85031253523938,27.525568399328137,27.995201049255115
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,8,27.515109580920033,27.177307176358504,27.75439229955194
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,9,27.46331028605157,27.231902585106873,27.73300234108502
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,10,25.711919259523533,25.406127286610506,26.14804842597909
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,11,21.113671701784888,20.73103514385107,21.648116416891934
+3. Southwest Hot-Dry Zone (Drought or Saline),wet_bulb,12,17.192821661735184,16.708768652526416,17.896617019404147
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,1,1.7358015184602438,0.4724930764808235,3.819292920560862
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,2,4.720817738723687,3.5611198897604517,5.722593956140427
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,3,8.768343618660717,7.7717636352545725,9.301312142636053
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,4,12.315546952872007,11.69507513696494,12.833972892500412
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,5,12.12589756444427,11.60349915254019,12.59470912291344
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,6,11.952735522289982,11.027325628921716,12.574416265809939
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,7,11.650361531414772,10.58579694996885,11.975130949160027
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,8,11.237602287458884,10.259512051615673,11.513913599710325
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,9,11.594330516261724,10.986700496644861,11.78224567887127
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,10,10.726073200682809,10.220909419085878,11.035004740491699
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,11,7.456184838716017,6.887584338779824,9.042599509014435
+4. Coastal Humid Heat Zone (Coastal Belt),cdd,12,3.720012248961793,2.74930015099946,6.108153841419451
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,1,18.74896903789806,17.576584860844065,20.77551050736162
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,2,22.163614051220538,21.118923192782013,22.93123386336353
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,3,27.79067332118724,25.925893341683967,28.82125487510858
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,4,35.73348669081819,34.108015728694305,37.383551590144435
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,5,36.54000190673552,34.86249631205104,38.04655781587988
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,6,37.49079391298414,34.712774894827454,39.83167417986568
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,7,36.971187514274455,33.7701539379632,38.17300885413363
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,8,35.7889813815524,33.213339597499974,36.908244180988405
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,9,36.370561185988684,33.91511447507399,37.252323820131004
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,10,33.14746621166078,31.552240418917393,34.28160686394646
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,11,25.54663384605356,24.83890943566916,27.916323059863473
+4. Coastal Humid Heat Zone (Coastal Belt),heat_index,12,20.98114182838322,20.123254117198343,23.2781622326794
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,1,1.9396188520892442e-07,7.80291886729098e-08,5.854600587512995e-07
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,2,1.4605801675995896e-06,7.268738021236897e-07,2.2767932146876494e-06
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,3,0.0001262103586816091,1.501901891430412e-05,0.00023263052240039258
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,4,0.041176224421717755,0.01027580352253159,0.0929512894065073
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,5,0.0666255057839565,0.01640114898081665,0.13465381040935392
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,6,0.14092500526064117,0.01868931747921842,0.3239024359505641
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,7,0.08855022567374438,0.010407269160984636,0.144196806987835
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,8,0.04319435382220643,0.007350696225655986,0.07059146939729538
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,9,0.05881361806755385,0.011391129939465209,0.08621846340843362
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,10,0.007552588825047226,0.0020750921918858277,0.014309726003429616
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,11,3.154688821101206e-05,7.572883791783014e-06,0.00013155913027350943
+4. Coastal Humid Heat Zone (Coastal Belt),heatstroke_hazard,12,8.238721763743017e-07,3.8818539634913757e-07,2.8329031503247556e-06
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,1,78.21791513037657,71.70448446786165,81.6913459985089
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,2,72.56493953050746,64.92228594846468,75.58341743498815
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,3,71.29800827744631,62.75250398621992,74.5536989130584
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,4,74.64394743939697,66.22270520111711,77.46629020513042
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,5,79.01966113058324,73.28513408628429,81.11434896074111
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,6,84.55701676185622,77.10016734555907,86.3182493135328
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,7,85.55714398857721,77.94271669567172,87.57574037850502
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,8,85.88789009902811,78.35529738247904,89.00202917919658
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,9,85.0320554675823,77.588178606826,86.6794263443145
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,10,83.00690183518579,74.60218266642408,84.81107172833711
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,11,78.99960047347388,70.93866455577407,81.75819023994542
+4. Coastal Humid Heat Zone (Coastal Belt),humidity,12,79.35335586625821,72.4493779559584,82.67257635441644
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,1,18.773688008630717,17.625434084641114,20.74113862038214
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,2,22.012097542557125,21.02195975186629,22.775635165029787
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,3,26.377590139557157,25.43746844042463,26.853189993773157
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,4,29.812252369310016,29.31041368626632,30.14486111576553
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,5,29.704005205582696,29.13195650358428,30.115345053630264
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,6,29.527578690798236,28.51621760501918,30.169349740370762
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,7,29.286821966976436,28.104744948830618,29.569818006959533
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,8,28.888856710989312,27.81110753536112,29.15903721614399
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,9,29.14489023022922,28.22554420352576,29.338482150238576
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,10,28.205332767916,27.739975543085606,28.759968476215004
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,11,24.80299256596505,24.237200500620467,26.263397440629262
+4. Coastal Humid Heat Zone (Coastal Belt),temperature,12,20.775983618876598,19.917296122373457,23.028066290349937
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,1,16.923010705609936,16.102031292340143,18.364976068957233
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,2,19.5465895187582,18.75252857486794,20.11635562430612
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,3,23.59842764850176,22.8062913156813,24.310077869450282
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,4,27.23810363028599,26.48035582442408,27.862256676491835
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,5,27.599450579727936,26.90531295863279,28.111533417441525
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,6,28.005272646260003,27.193545347461107,28.7160132603547
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,7,27.87207362147327,26.915395832315188,28.26208967227504
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,8,27.515006876472235,26.76841490557255,27.891467988467063
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,9,27.678973738253006,26.94002427036679,27.989115437179557
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,10,26.55187314488432,25.603446520033838,26.93720350857392
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,11,22.83881687469818,22.434804311654958,23.83764872395447
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_shade,12,18.96243889600101,18.422068204479427,20.509819715089684
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,1,17.891014327168183,17.068210642148088,19.352119300235277
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,2,20.625774877972596,19.823206834084296,21.180483699672752
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,3,24.821915304823982,24.010998189439132,25.519110508825136
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,4,28.504970288626545,27.705752136127845,29.17885117731959
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,5,28.757882262243317,28.024418278074755,29.277227146825297
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,6,28.911865756623683,28.03406101828995,29.666456398262696
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,7,28.748263981436423,27.717953678179537,29.1317279013102
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,8,28.32320186703791,27.428469994947772,28.663494192379282
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,9,28.566928942632213,27.79083452837161,28.868333168278284
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,10,27.46534351395971,26.51315216617978,27.856814689391612
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,11,23.761820861254403,23.351356071227084,24.794314660306732
+4. Coastal Humid Heat Zone (Coastal Belt),wbgt_sun,12,19.813619012822652,19.25730542710774,21.378787675409185
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,1,16.1298632900296,15.449144381354014,17.34662068977513
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,2,18.489943222844374,17.595804142255282,19.173987770627264
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,3,22.40735800947802,21.297010230093008,23.253542723107465
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,4,26.134897027847128,24.981008353107406,26.883997631088825
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,5,26.697498597218754,25.74377628154521,27.252757001932068
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,6,27.35285577002933,26.24528536111183,28.09315476891925
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,7,27.265752901971915,26.24632472753821,27.715441657213752
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,8,26.92621409025063,25.93239364969662,27.35584767456096
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,9,27.050723813120346,26.017855405624033,27.43263132063675
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,10,25.843247592156455,24.52696366076788,26.30129438172459
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,11,21.997027292726663,21.251996964880078,22.798042131093844
+4. Coastal Humid Heat Zone (Coastal Belt),wet_bulb,12,18.185205443340045,17.692757117607595,19.430571182835287
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,1,0.22665976570471713,0.0,0.7033463330769987
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,2,1.9527023585315955,0.37254321324601847,3.122399519386457
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,3,6.114114108175585,4.403078252529841,7.406932543695044
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,4,8.927033008791131,6.692861182430345,11.320945737775444
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,5,9.54462351619817,7.645769741284848,11.38921238806569
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,6,9.778378414166905,7.94951686319315,11.33441942473223
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,7,10.463298604386228,8.643561134534842,11.825600800752593
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,8,10.314449727629103,8.71818216156046,11.477378561073165
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,9,10.643158960350538,9.06341299462283,11.75523718619084
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,10,8.500026884775307,6.5920146369692745,9.917517493988294
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,11,5.860650861303405,4.800873228596021,6.497553263760263
+5. Haor or Wetland Humid Zone (Haor Basin),cdd,12,1.8236232630592313,0.6163059904276302,2.7928036984680595
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,1,17.382415439498278,16.747681920537605,17.902607505688547
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,2,19.985903858025626,18.945731189677417,20.693544586349063
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,3,24.301012296378982,22.97611537205232,25.531937488453664
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,4,29.956985551949096,26.50164407887444,33.74562318665812
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,5,31.824303438303012,28.688877221678545,34.92923541743414
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,6,32.99744657443004,30.101621770619133,35.4698934898709
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,7,35.28002668661754,32.39532358617858,37.39740984948011
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,8,34.739078279380934,32.442991383880056,36.17269907762011
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,9,35.30047061170204,32.90300852602302,36.64740024468388
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,10,30.09063787562929,27.65381809665481,31.68769666810939
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,11,24.093543247975177,23.194806554916106,24.649098941312047
+5. Haor or Wetland Humid Zone (Haor Basin),heat_index,12,19.80508107153344,19.14150466969506,20.17820484569895
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,1,7.133972564225861e-08,4.62885208761536e-08,9.582174929763913e-08
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,2,3.9189035981764845e-07,1.848721209055551e-07,5.560006267544156e-07
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,3,6.625826622342755e-06,2.342082092658788e-06,1.17182312641908e-05
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,4,0.002617840356165391,5.3964040363272336e-05,0.008200219128938816
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,5,0.0075665714043499826,0.00021401048371424915,0.021364146512605063
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,6,0.012564285674082427,0.0008333369766917551,0.029776699736826964
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,7,0.04630399734155453,0.0035231091686689915,0.0936838294173069
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,8,0.02604003812405434,0.0036300295734559155,0.04560639263123882
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,9,0.03629100895787703,0.004843049806367185,0.060545848390489765
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,10,0.001255534503836599,0.00011151476752670393,0.0022595195998057383
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,11,5.046816984020801e-06,2.68804464684419e-06,6.719290498974126e-06
+5. Haor or Wetland Humid Zone (Haor Basin),heatstroke_hazard,12,3.268864273036845e-07,2.0913950530328553e-07,4.018643047653175e-07
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,1,81.32257120621628,81.02146907529895,82.20440386427805
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,2,75.71660670776834,73.72511221587706,77.27869856210583
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,3,74.0473375361941,72.09485279358273,75.72582326782444
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,4,77.45089714675089,74.91254345013246,80.44930248088252
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,5,81.89369862062905,81.51891913206707,82.3244276423561
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,6,87.03366440127454,84.90899209206299,88.8250314757665
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,7,86.08376163772866,84.49646889401302,87.4718892592522
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,8,86.24279334993574,84.63886541065983,87.57384816492124
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,9,84.8164249305949,84.38738185098146,85.54967090587505
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,10,84.5873513590712,84.04278775635963,85.11709677213324
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,11,79.69186709633465,77.15708854741072,82.4451123693397
+5. Haor or Wetland Humid Zone (Haor Basin),humidity,12,81.6699482879859,80.20612315569927,83.74654788577747
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,1,17.457670173941786,16.887787075974057,17.93735838718341
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,2,19.957548701606573,18.975265115112585,20.62733763355025
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,3,23.91999862084901,22.677622387881964,25.07044198938693
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,4,27.2614173941137,25.81417114455981,29.027896420806965
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,5,27.72139800763165,26.454935340796478,28.94921958164979
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,6,27.86488298675017,26.704779214342736,28.820963088225405
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,7,28.70495301854055,27.639142305758376,29.462137036490258
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,8,28.5232948627552,27.648622952881354,29.067903781973616
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,9,28.815306428754603,28.018604468685712,29.277686502097403
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,10,26.928997923084715,25.92505970983896,27.553024177949904
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,11,23.597404087286662,22.84053971571752,24.037099905556925
+5. Haor or Wetland Humid Zone (Haor Basin),temperature,12,19.65184765617417,19.083343746026895,19.981851154718832
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,1,15.908080550821058,15.32827997466295,16.35175318338975
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,2,17.854109603207963,17.041185513246397,18.4028988004219
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,3,21.512927137613982,20.471265031913234,22.491764913289543
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,4,25.066062998901934,23.77798519035945,26.51379661256759
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,5,25.96744395380248,24.72519712583646,27.126551956483482
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,6,26.621977873618196,25.65820977885866,27.420602249944444
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,7,27.3535389557351,26.446213474898723,28.007092489895754
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,8,27.191516805844635,26.46571838883446,27.635904624371
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,9,27.33444096892741,26.543630181324097,27.76608449209617
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,10,25.462173738840313,24.42463829916491,26.12649434018336
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,11,21.73988793804954,20.76862595720295,22.425369259587537
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_shade,12,18.07659133992065,17.397048786379298,18.431706544478793
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,1,16.815484519895328,16.23180363793645,17.28993798932005
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,2,18.899057961872884,18.089908994919746,19.409597053767378
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,3,22.659513094703854,21.60531949617924,23.64524733139057
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,4,26.194212496061837,24.868779403501115,27.720742799324086
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,5,26.974869487142946,25.6770976747684,28.210761096923726
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,6,27.39085713379846,26.364813226501028,28.2539268933797
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,7,28.12878633764868,27.148539354090275,28.853214449257933
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,8,27.955992695173208,27.199277294706803,28.382119486620425
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,9,28.174535979403473,27.34172054799752,28.63224328799061
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,10,26.318251445380046,25.274548900009904,26.956127433633586
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,11,22.624277859630922,21.648729517559435,23.30068251517184
+5. Haor or Wetland Humid Zone (Haor Basin),wbgt_sun,12,18.89248241244814,18.21464869730457,19.252838185054003
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,1,15.243970712340747,14.65991978838676,15.672208096049614
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,2,16.952635703894273,16.21229425530375,17.449567871938324
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,3,20.4813250733704,19.52568330792664,21.386617594962097
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,4,24.125196829525464,22.905334067130724,25.43632526617929
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,5,25.215749359304265,23.98388074799645,26.345408688555064
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,6,26.08930425370449,25.209680020794053,26.820447604966894
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,7,26.774361500247053,25.93495826167316,27.383501969926684
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,8,26.620754781454394,25.95875928995722,27.022190699684167
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,9,26.69978434328719,25.911498343883412,27.13248829828138
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,10,24.83353480273557,23.781600551733177,25.515124409711987
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,11,20.943809588376492,19.880662917839565,21.73462755417209
+5. Haor or Wetland Humid Zone (Haor Basin),wet_bulb,12,17.401481490097716,16.67435094653033,17.767358854375917
+6. Hill Tract Zone (Elevated Terrain),cdd,1,1.9936692604873734,1.8777811148607366,2.10715141689251
+6. Hill Tract Zone (Elevated Terrain),cdd,2,4.313138943210762,4.2924674854399765,4.3523523734509055
+6. Hill Tract Zone (Elevated Terrain),cdd,3,8.160380876837314,8.10955555027844,8.216785602427853
+6. Hill Tract Zone (Elevated Terrain),cdd,4,11.57337988310582,11.41529055066201,11.704911468471591
+6. Hill Tract Zone (Elevated Terrain),cdd,5,11.465410661913559,11.2736390607472,11.621605284520001
+6. Hill Tract Zone (Elevated Terrain),cdd,6,11.092812859658041,10.96197049265863,11.293017895209617
+6. Hill Tract Zone (Elevated Terrain),cdd,7,11.086134496847654,10.754341776069825,11.266284004658102
+6. Hill Tract Zone (Elevated Terrain),cdd,8,10.530366519884145,10.222381279182137,10.750123847299479
+6. Hill Tract Zone (Elevated Terrain),cdd,9,11.129585860103177,10.726665175448666,11.335108128313637
+6. Hill Tract Zone (Elevated Terrain),cdd,10,10.36235244736451,10.154127953757094,10.592424226304535
+6. Hill Tract Zone (Elevated Terrain),cdd,11,7.654699830695996,7.346915737545334,7.881506187954377
+6. Hill Tract Zone (Elevated Terrain),cdd,12,4.120710812880427,3.6336419269576012,4.425230322527376
+6. Hill Tract Zone (Elevated Terrain),heat_index,1,19.53259779945888,19.204292901259883,19.778817343511854
+6. Hill Tract Zone (Elevated Terrain),heat_index,2,22.113670589060252,21.80694769939104,22.3092031316153
+6. Hill Tract Zone (Elevated Terrain),heat_index,3,27.150844817304137,26.190568393506723,27.680398241823184
+6. Hill Tract Zone (Elevated Terrain),heat_index,4,34.155790913791414,33.477185482721964,34.57066952158446
+6. Hill Tract Zone (Elevated Terrain),heat_index,5,35.01554788396513,34.399644566594645,35.4679028985512
+6. Hill Tract Zone (Elevated Terrain),heat_index,6,35.30924979618135,34.25392922557046,36.025612318041155
+6. Hill Tract Zone (Elevated Terrain),heat_index,7,35.39227427971076,35.02005344262499,35.6408446913878
+6. Hill Tract Zone (Elevated Terrain),heat_index,8,34.09090957676383,33.58751035020044,34.62736529444979
+6. Hill Tract Zone (Elevated Terrain),heat_index,9,35.1995686945419,34.7389386102401,35.58523354729075
+6. Hill Tract Zone (Elevated Terrain),heat_index,10,32.92777773864327,32.185939864730486,33.400076697197896
+6. Hill Tract Zone (Elevated Terrain),heat_index,11,26.098305583083572,25.624935469711343,26.365798243540105
+6. Hill Tract Zone (Elevated Terrain),heat_index,12,21.923244861393073,21.363464098671077,22.29586635202279
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,1,2.7060429970815414e-07,2.1758467217025053e-07,3.124617771098911e-07
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,2,1.3729558488496447e-06,1.1213135344985076e-06,1.5385859576738416e-06
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,3,3.5238594529852104e-05,1.7744909796032715e-05,4.5353998627607844e-05
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,4,0.011032556419786245,0.006936210086334298,0.013692885248412064
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,5,0.022322524250807704,0.012319115234500688,0.029735911447313298
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,6,0.029664966264248138,0.014068188522861996,0.04173220958577691
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,7,0.028755432586128116,0.022598973897343704,0.033045960804672606
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,8,0.013155624756136122,0.009289733629207188,0.01772752799314006
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,9,0.0257868829599051,0.019000611619189266,0.03194439523352998
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,10,0.005173534503417963,0.003090076908481117,0.006608639627514684
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,11,4.275084225031703e-05,3.1064549858331955e-05,4.953691017310288e-05
+6. Hill Tract Zone (Elevated Terrain),heatstroke_hazard,12,1.2437222734340867e-06,8.479848534281355e-07,1.5257127509335581e-06
+6. Hill Tract Zone (Elevated Terrain),humidity,1,76.58705646332162,75.05898038365416,79.2699577143924
+6. Hill Tract Zone (Elevated Terrain),humidity,2,70.43942546132807,69.41843473808316,71.60657352158668
+6. Hill Tract Zone (Elevated Terrain),humidity,3,68.56973655500008,68.02660295925583,69.45319101362116
+6. Hill Tract Zone (Elevated Terrain),humidity,4,73.43013512995817,72.38166567162739,74.06665503937518
+6. Hill Tract Zone (Elevated Terrain),humidity,5,78.18704404734031,77.4872994154824,79.05925632142885
+6. Hill Tract Zone (Elevated Terrain),humidity,6,84.46922919812376,83.93713359512833,85.51567934928042
+6. Hill Tract Zone (Elevated Terrain),humidity,7,85.06564864975645,84.79908126341746,85.59327603418453
+6. Hill Tract Zone (Elevated Terrain),humidity,8,86.43973115532272,84.74649501421789,87.94795293074225
+6. Hill Tract Zone (Elevated Terrain),humidity,9,84.55720036620329,83.5213413448931,85.56136586244341
+6. Hill Tract Zone (Elevated Terrain),humidity,10,82.7291096715575,82.21154747374788,83.5809698674436
+6. Hill Tract Zone (Elevated Terrain),humidity,11,78.12330317940727,75.71049510904774,81.10117497839272
+6. Hill Tract Zone (Elevated Terrain),humidity,12,77.84614081139466,74.71361169325549,81.36357917962246
+6. Hill Tract Zone (Elevated Terrain),temperature,1,19.52479009356054,19.16264606550068,19.78489855570181
+6. Hill Tract Zone (Elevated Terrain),temperature,2,22.017148516982846,21.710604496661265,22.219141012231123
+6. Hill Tract Zone (Elevated Terrain),temperature,3,26.106372728253735,25.77587907615268,26.32970916725794
+6. Hill Tract Zone (Elevated Terrain),temperature,4,29.315842077472666,29.128140280855984,29.42979080212502
+6. Hill Tract Zone (Elevated Terrain),temperature,5,29.24297811304562,29.073829701404673,29.335580994882093
+6. Hill Tract Zone (Elevated Terrain),temperature,6,28.85153766954204,28.539627217194536,29.008538325088356
+6. Hill Tract Zone (Elevated Terrain),temperature,7,28.83898902024644,28.73839988575247,28.94166474903822
+6. Hill Tract Zone (Elevated Terrain),temperature,8,28.29810641908499,28.115634300433193,28.419525155632176
+6. Hill Tract Zone (Elevated Terrain),temperature,9,28.81272421137504,28.66019206910063,28.91610217828952
+6. Hill Tract Zone (Elevated Terrain),temperature,10,28.148826285238812,27.822853614800113,28.3548644280515
+6. Hill Tract Zone (Elevated Terrain),temperature,11,25.457148888948627,24.9561255664121,25.757597761740882
+6. Hill Tract Zone (Elevated Terrain),temperature,12,21.66821824867272,21.07583189705338,22.081323072756568
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,1,17.51319850347777,17.394150945580932,17.632627871776428
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,2,19.356655347406605,19.171757880652358,19.454935861536484
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,3,23.06499818535738,22.717031977508213,23.256489918868485
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,4,26.63344564019094,26.34179296866303,26.81053321092228
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,5,27.065569068520286,26.82852472588958,27.246619909602263
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,6,27.334449504772607,26.976267221856986,27.593480134069324
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,7,27.38305575472324,27.2577347078892,27.45651103110604
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,8,26.99108811594823,26.83050123470764,27.2036445416094
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,9,27.305213471975634,27.15904067019602,27.456190268835062
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,10,26.46903676518221,26.23674998011942,26.617871379359862
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,11,23.39030326016703,23.193873448122822,23.531180475395704
+6. Hill Tract Zone (Elevated Terrain),wbgt_shade,12,19.6950806428319,19.437544278745484,19.836320352659
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,1,18.532059759033544,18.39442874612487,18.671354465329443
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,2,20.46625046766424,20.259861204959503,20.587935716943775
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,3,24.329550515995425,23.950963914711096,24.52185968934196
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,4,27.914720915370655,27.581964744711343,28.133115760412277
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,5,28.279436495017297,28.008675615198644,28.49285682173422
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,6,28.237669749548363,27.879264081837608,28.48840549319572
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,7,28.24477197784262,28.135766264756395,28.32884928475572
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,8,27.831307408281276,27.678502549560385,28.03039826098435
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,9,28.2290975341903,28.084131867848463,28.37441948208075
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,10,27.400032660827076,27.159016876694754,27.54839388868961
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,11,24.32658221577516,24.12010746420809,24.46489338403825
+6. Hill Tract Zone (Elevated Terrain),wbgt_sun,12,20.56520529874238,20.29229041194447,20.702451190866206
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,1,16.651087822013732,16.60681285033174,16.710226150094122
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,2,18.21644398901679,18.083680759505683,18.2953746963059
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,3,21.761551952687515,21.406097506660586,21.989187052090447
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,4,25.4838471670702,25.147644120580335,25.687994243263972
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,5,26.132393763723716,25.866251164954544,26.35135087305376
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,6,26.684268862728572,26.306255795283754,26.987922705951945
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,7,26.759084355213293,26.623163917376374,26.83407256769984
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,8,26.430937414603914,26.27972992082526,26.708423716075032
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,9,26.659137440804457,26.515690070665478,26.853752504020818
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,10,25.749126970872236,25.556991279541982,25.873445787063446
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,11,22.504512276403492,22.438622540284562,22.61980496255405
+6. Hill Tract Zone (Elevated Terrain),wet_bulb,12,18.849450240328697,18.735421013756394,18.974386313995055

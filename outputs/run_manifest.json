@@ -1,0 +1,113 @@
+{
+  "generated_utc": "2026-07-16T14:31:04.589892+00:00",
+  "n_districts": 64,
+  "districts": [
+    "Bagerhat",
+    "Bandarban",
+    "Barguna",
+    "Barisal",
+    "Bhola",
+    "Bogra",
+    "Brahmanbaria",
+    "Chandpur",
+    "Chittagong",
+    "Chuadanga",
+    "Comilla",
+    "Cox_s Bazar",
+    "Dhaka",
+    "Dinajpur",
+    "Faridpur",
+    "Feni",
+    "Gaibandha",
+    "Gazipur",
+    "Gopalganj",
+    "Habiganj",
+    "Jamalpur",
+    "Jessore",
+    "Jhalokati",
+    "Jhenaidah",
+    "Joypurhat",
+    "Khagrachhari",
+    "Khulna",
+    "Kishoreganj",
+    "Kurigram",
+    "Kushtia",
+    "Lakshmipur",
+    "Lalmonirhat",
+    "Madaripur",
+    "Magura",
+    "Manikganj",
+    "Meherpur",
+    "Moulvibazar",
+    "Munshiganj",
+    "Mymensingh",
+    "Naogaon",
+    "Narail",
+    "Narayanganj",
+    "Narsingdi",
+    "Natore",
+    "Nawabganj",
+    "Netrakona",
+    "Nilphamari",
+    "Noakhali",
+    "Pabna",
+    "Panchagarh",
+    "Patuakhali",
+    "Pirojpur",
+    "Rajbari",
+    "Rajshahi",
+    "Rangamati",
+    "Rangpur",
+    "Satkhira",
+    "Shariatpur",
+    "Sherpur",
+    "Sirajganj",
+    "Sunamganj",
+    "Sylhet",
+    "Tangail",
+    "Thakurgaon"
+  ],
+  "runtime_seconds": 3335.2,
+  "config": {
+    "train_years": [
+      2014,
+      2022
+    ],
+    "test_years": [
+      2023,
+      2024
+    ],
+    "ml_window": [
+      2014,
+      2024
+    ],
+    "forecast_months": 24,
+    "fourier_harmonics": 3,
+    "models": [
+      "RandomForest",
+      "XGBoost",
+      "LightGBM",
+      "CatBoost"
+    ],
+    "saw_weights": {
+      "R2": 0.25,
+      "CV_R2": 0.25,
+      "RMSE": 0.2,
+      "Gen_Gap": 0.2,
+      "Acc_tol1": 0.1
+    }
+  },
+  "methodology_notes": {
+    "projection_trend": "Robust 1980-2024 Sen slope per district/variable (solar_radiation, uv fall back to their 2014-2024 record); trees model the seasonal residual and the observed climate trend is re-added at projection time (future-known features only). Included for consistency with the Mann-Kendall trend analysis; it does not materially improve near-term test skill because the monthly seasonal cycle dominates.",
+    "heatstroke_hazard": "Excluded from validation/skill results: negative out-of-sample R2 (worse than a constant). Retained as a descriptive projected column only."
+  },
+  "versions": {
+    "python": "3.14.5",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.8.0",
+    "lightgbm": "4.6.0",
+    "xgboost": "3.3.0",
+    "catboost": "1.2.10"
+  }
+}
