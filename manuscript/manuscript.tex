@@ -107,12 +107,12 @@ radiation, wind, and atmospheric moisture all govern the body's ability to shed
 heat through evaporation, radiation, and convection; elevated humidity in
 particular suppresses the evaporation of sweat---the body's primary cooling
 mechanism---so that core temperature rises even when the air is not exceptionally
-hot \citep{Steadman1979}. To capture these combined effects, researchers have
+hot \citep{steadman1979}. To capture these combined effects, researchers have
 developed composite heat-stress indices that now underpin public-health warning
-systems, occupational heat-safety standards \citep{ISO7243}, and cooling-energy
-demand projections \citep{Spinoni2018}, and that increasingly recognise the
+systems, occupational heat-safety standards \citep{iso7243_2017}, and cooling-energy
+demand projections \citep{spinoni2018}, and that increasingly recognise the
 approach of physiological survivability limits under extreme humid heat
-\citep{Raymond2020}.
+\citep{raymond2020}.
 
 South Asia is among the regions most acutely exposed to escalating heat stress,
 owing to its dense population, high monsoon-season humidity, and large share of
@@ -142,7 +142,7 @@ health policy, or urban cooling infrastructure---requires knowing not only where
 risk is highest today but where and how quickly it is worsening. A recent
 wet-bulb globe temperature analysis across Bangladesh reported warming of roughly
 0.08--0.5\,\degC per decade, most pronounced in the southeast and northeast
-\citep{Kamal2024}, underscoring the need for district-resolved, multi-index
+\citep{kamal2024scientific}, underscoring the need for district-resolved, multi-index
 projection.
 
 This study addresses these gaps through the Temperature-Correlated Conditions
@@ -179,6 +179,170 @@ out-of-sample skill and is retained only descriptively. The remainder of this
 paper details the data and methods, presents the validated projections and
 observed trends, and discusses their implications for heat-adaptation planning
 across Bangladesh.
+
+%% ===========================================================================
+\section{Literature Review}\label{sec:litreview}
+
+Human exposure to heat is not adequately captured by dry-bulb air temperature
+alone. A growing body of work therefore evaluates compound thermal indices that
+combine temperature with humidity, radiation, and wind to describe how heat is
+actually experienced and how it threatens health, labour productivity, and energy
+demand. This section synthesises recent international and Bangladesh-focused
+literature across the seven temperature-correlated conditions addressed in this
+study, the machine-learning methods used to forecast them, and the urban and
+regional context that motivates a district-resolved, multi-index treatment.
+
+\subsection{The physiological basis of thermal-stress indices}
+\citet{raymond2020} provided seminal evidence that a wet-bulb temperature (WBT)
+of $35\,\degC$ represents the physiological limit for human survival, showing that
+humid-heat extremes had already more than doubled in frequency between 1979 and
+2017 and shifting the field's focus from ambient temperature toward compound
+heat--humidity metrics. The inadequacy of dry-bulb temperature as a standalone
+indicator is well established: high humidity impairs the evaporative efficiency of
+perspiration, causing perceived loads to exceed measured air temperature
+\citep{steadman1979}. The heat index formalises this through the regression of
+\citet{rothfusz1990}, operationalised by the U.S.\ National Weather Service. The
+wet-bulb globe temperature (WBGT), originally developed by \citet{yaglou1957} for
+military training and codified in ISO~7243 \citep{iso7243_2017}, extends the
+framework to radiant load, making it the international standard for occupational
+heat-stress assessment \citep{parsons2006}. The empirical WBT approximation of
+\citet{stull2011}, derived by gene-expression programming with a mean absolute
+error below $0.3\,\degC$, provides a computationally efficient estimate applicable
+to station and reanalysis data alike. Cooling degree-days (CDD) complement these
+physiological indices by quantifying the cumulative thermal energy above a
+baseline, a standard proxy for building cooling demand \citep{spinoni2018,
+bhatnagar2018}; the UV index \citep{who2002} captures the solar-radiation
+dimension of outdoor exposure; and dew-point temperature offers a stable,
+temperature-independent measure of atmospheric moisture that outperforms relative
+humidity as a predictor of perceived discomfort \citep{lawrence2005}. Together
+these conditions span the physiological, biophysical, and infrastructural
+dimensions of heat risk that the present study projects jointly, against a
+backdrop of accelerating global warming documented by the IPCC \citep{ipcc2022ar6}.
+
+\subsection{Observed heat-stress trends in Bangladesh}
+Bangladesh is among the most heat-exposed nations, and a dense body of
+station-based work documents its warming. \citet{rahman2021} produced the first
+comprehensive spatiotemporal appraisal of historical and projected heat-index
+change, finding statistically significant upward trends across most districts,
+sharpest in the pre-monsoon season. \citet{tanim2024heat} analysed 60~years
+(1961--2020) of records from 17 stations using the Discomfort Index, Humidex, and
+WBT, reporting a spatially uneven rise in heat discomfort that is steepest along
+the coastal belt and driven primarily by rising air temperature. For WBGT
+specifically, \citet{kamal2024scientific} provided the anchor analysis, computing
+outdoor WBGT from 1979--2021 reanalysis with the physically based Liljegren model
+and finding a national rise of $0.08$--$0.5\,\degC$ per decade, a fivefold
+expansion of the area affected by high-to-extreme stress, and air temperature as
+the dominant driver ($85.9\%$ relative importance); a companion paper developed
+simplified regression equations to lower the computational barrier to WBGT
+adoption \citep{kamal2024ijc}. Temperature-extreme indices are likewise
+intensifying: \citet{ahmed2022} found lengthening warm-spell durations,
+particularly in coastal regions, and \citet{islam2021extremes} identified
+warm-index trends dominated by post-2000 increases across 27 stations. Trends in
+degree-days were examined by \citet{islam2020cdd}, who reported significant CDD
+increases with the southwestern and central zones showing the highest annual
+means. At the health end, \citet{miah2026} linked ambient temperature and heat
+index to heatstroke mortality in an ecological time-series analysis, reinforcing
+the public-health urgency of a multi-index approach.
+
+\subsection{Urban heat islands and zone-specific dynamics}
+Urban heat-island (UHI) intensity amplifies background warming, especially within
+the densely built central zone examined here. \citet{dewan2021} characterised
+diurnal and seasonal UHI across five major Bangladeshi cities from satellite
+land-surface temperature, finding the greatest magnitude in the pre-monsoon period
+and the largest daytime surface UHI in Dhaka ($2.74\,\degC$), followed by
+Chittagong ($1.92\,\degC$) and Khulna ($1.27\,\degC$). \citet{faisal2022} reported
+that UHI intensity rose substantially across most districts from 2000 to 2020,
+with Dhaka and Mymensingh steepest, and \citet{park2024} showed that Dhaka's UHI
+is strongest in winter ($0.95\,\degC$) and weakest during the monsoon
+($0.23\,\degC$), with heat waves producing distinctive synoptic patterns that
+compound local warming. These findings support treating Bangladesh's urban core as
+a distinct climatic zone and, more broadly, motivate the six-zone structure adopted
+in this study.
+
+\subsection{Machine learning for meteorological and thermal-index forecasting}
+Ensemble tree methods have consistently outperformed conventional statistical and
+numerical approaches for temperature and humidity forecasting in data-rich,
+strongly seasonal settings. The gradient-boosting family---XGBoost
+\citep{chen2016xgboost}, LightGBM \citep{ke2017lightgbm}, and CatBoost
+\citep{prokhorenkova2018catboost}---recurs as a strong, interpretable baseline
+across environmental prediction problems. In Bangladesh, \citet{islam2026enso}
+found XGBoost most accurate for seasonal temperature prediction across 29 stations
+($R^{2}=0.88$ for maximum and $0.97$ for minimum temperature) when trained on ENSO
+predictors; \citet{akter2025} found Random Forest best for humidity forecasting at
+northern stations over a 40-year record; and \citet{rahman2024rnlstm} found a
+stacking ensemble outperformed RNN--LSTM and decision-forest models for
+average-temperature prediction over a 60-year series. Most directly,
+\citet{mollah2026mlheatindex} benchmarked ARIMAX, SARIMAX, Random Forest, XGBoost,
+and LSTM on 3-hourly Dhaka records (2014--2023) for conditional, scenario-based
+heat-index projection, with Random Forest achieving the lowest error
+(RMSE~$=0.85\,\degC$, $R^{2}=0.987$)---a close methodological precedent for the
+present work. The value of combining gradient-boosting learners is illustrated by
+\citet{kim2023toxins}, whose stacked XGBoost/LightGBM/CatBoost ensemble reached
+$R^{2}=0.93$, outperforming any single model. Fourier-based encoding of seasonal
+cycles as sine and cosine terms has been shown to improve both accuracy and
+efficiency on meteorological series \citep{galansales2024}, directly motivating the
+Fourier feature layer used here. Comparative studies elsewhere reinforce the
+transferability of these methods \citep{hanoon2021ml,abdelsattar2025ml}, while the
+validation of deep-learning weather models on recent extreme events
+\citep{pasche2025validating} and analyses of the distinct atmospheric drivers of
+humidex versus temperature heatwaves \citep{jeong2025humidex} situate the
+forecasting problem in its broader physical context.
+
+\subsection{Per-condition modelling and international context}
+Beyond the anchor WBGT and heat-index studies, the individual conditions have
+distinct literatures. For the heat-index/Humidex family, \citet{sojan2024humidheat}
+showed that humid-heat stress in India is intensifying disproportionately faster
+than dry heat; \citet{kushwaha2026humidex} projected air temperature as the
+dominant driver of future extreme-Humidex days across 15 CMIP6 models;
+\citet{scoccimarro2017humidity} established that perceived-temperature extremes
+intensify faster than temperature extremes owing to rising humidity;
+\citet{saha2025postescalation} documented a post-2000 escalation of humid heatwaves
+across Northeast India and Bangladesh; and \citet{tabassum2025coolroofs} connected
+a cool-roof intervention to measurable Humidex reductions during a Dhaka heat wave.
+Heatstroke-risk modelling has matured chiefly outside Bangladesh---%
+\citet{xuh2024heatstroke} trained interpretable models linking meteorology to
+heatstroke incidence in South China---with \citet{ehsan2026extremeheat} providing a
+recent Bangladesh-focused machine-learning forecast of extreme-heat health impact;
+consistent with this thin evidence base, the present study computes a heatstroke
+indicator but, as reported below, excludes it from the validated results for a lack
+of out-of-sample skill. For CDD, \citet{bilgili2023cdd} showed that classical
+SARIMA models remain competitive with machine learning when the seasonal structure
+is strong. UV-index modelling is comparatively underexplored in the regional
+literature: \citet{teggi2026uvindex} recently derived the UV index from reanalysis
+validated against ground stations, whereas in the present framework the UV index is
+instead predicted directly as a modelled variable. Dew-point prediction has a
+well-developed machine-learning lineage, progressing from extreme-learning-machine
+and kernel baselines \citep{mohammadi2015elm,qasem2019dewpoint}, to gradient-boosted
+trees exploiting cross-station information \citep{yao2022catboost}, to
+attention-based sequence models with explainability \citep{abdullah2025xai}.
+Internationally, the stakes are large: \citet{parsons2021labor} estimated humid-heat
+labour losses equivalent to roughly $1.7\%$ of 2017 global GDP, with South Asian
+outdoor workers among the worst affected, and \citet{flouris2022} meta-analysed a
+significant negative association between WBGT exposure and manual work capacity.
+Longer-term projections for Bangladesh under CMIP6 \citep{khatun2024} indicate
+continued rises in warm-spell duration and tropical nights, providing the
+multi-decadal backdrop against which the near-term (2025--2026) forecasts generated
+here should be read.
+
+\subsection{Research gaps addressed by this study}
+Three gaps emerge from this review. First, although individual indices---chiefly
+WBGT and the heat index---have been examined for Bangladesh in isolation, no study
+has simultaneously computed, validated, and forecast seven complementary
+thermal-stress conditions within a single framework, at district resolution, across
+climatically distinct zones. Second, existing Bangladeshi forecasting work has
+relied on conventional statistics, CMIP6 downscaling, or single-algorithm machine
+learning; the multi-algorithm gradient-boosting ensemble with Fourier feature
+engineering and an explicitly re-imposed observational trend proposed here has not
+previously been applied to thermal-stress forecasting in this context. Third, the
+six-zone climatological structure of Bangladesh---Northwest dry-hot plains, Central
+urban core, Southwest saline-drought belt, Coastal maritime zone, Haor wetland
+basins, and Hill Tracts---has not previously organised a multi-index heat-risk
+assessment, leaving intra-national thermal heterogeneity systematically
+undercharacterised. In contrast to studies built on ERA5 reanalysis, the present
+work is driven by station-derived Visual Crossing records and validated
+out-of-sample against independent 2025 observations, providing an externally
+verified, uncertainty-aware, and district-resolved projection across all seven
+conditions.
 
 %% ===========================================================================
 \section{Materials and Methods}\label{sec:methods}
@@ -255,8 +419,8 @@ $\mathbf{x}=[\,\mathrm{year},\ \sin_{1},\cos_{1},\dots,\sin_{3},\cos_{3}\,]$
 \subsection{Predictive models}\label{sec:models}
 Four gradient-based tree ensembles are trained independently for every
 district--variable pair: Random Forest \citep{Breiman2001}, XGBoost
-\citep{Chen2016}, LightGBM \citep{Ke2017}, and CatBoost
-\citep{Prokhorenkova2018}. Hyperparameters are fixed a~priori and applied
+\citep{chen2016xgboost}, LightGBM \citep{ke2017lightgbm}, and CatBoost
+\citep{prokhorenkova2018catboost}. Hyperparameters are fixed a~priori and applied
 uniformly across all districts and variables so that results are mutually
 comparable and the pipeline is fully deterministic (global random seed $=42$).
 The fixed configurations are listed in the supplementary material.
@@ -335,7 +499,7 @@ additionally flagged as overfitting risks.
 To avoid target leakage, thermal-stress indices are never predicted directly;
 they are recomputed analytically from the \emph{projected} primary variables.
 The heat index (HI) uses the U.S.\ National Weather Service Rothfusz regression
-\citep{Rothfusz1990}. With temperature $T_F$ and relative humidity $R$ (in
+\citep{rothfusz1990}. With temperature $T_F$ and relative humidity $R$ (in
 $^{\circ}$F and \%),
 \begin{align}
 \mathrm{HI} =\ & -42.379 + 2.04901523\,T_F + 10.14333127\,R
@@ -350,7 +514,7 @@ $^{\circ}$F and \%),
 with the standard low-humidity and high-humidity adjustments applied within
 their validity ranges and a simplified formula substituted below $80^{\circ}$F;
 the result is returned in $\degC$. Wet-bulb temperature $T_w$ follows the
-empirical formulation of \citet{Stull2011},
+empirical formulation of \citet{stull2011},
 \begin{align}
 T_w =\ & T\,\arctan\!\big[0.151977\,(R+8.313659)^{1/2}\big]
        + \arctan(T+R) \nonumber\\
@@ -399,7 +563,7 @@ additionally mapped to established risk-category systems: the U.S.\ National
 Weather Service heat-index comfort classes (Comfortable, Caution, Extreme
 Caution, Danger, Extreme Danger); WBGT occupational-exposure classes (Low,
 Moderate, High, Extreme); the World Health Organization UV-index classes (Low,
-Moderate, High, Very High, Extreme) \citep{WHO2002}; and dew-point human-comfort
+Moderate, High, Very High, Extreme) \citep{who2002}; and dew-point human-comfort
 classes (Dry through Extremely Oppressive). Wet-bulb temperature~(2) and cooling
 degree-days~(5) are reported as continuous physical quantities. The category
 boundaries are conventionally defined for daily peak values; because the present
@@ -776,8 +940,12 @@ $81$--$90\%$ of district-months exactly and in $100\%$ to within one adjacent
 class. Because the indices are computed from the projected primary variables
 rather than predicted directly, this accuracy is achieved without target leakage
 and while preserving the physical coupling among temperature, humidity, and
-radiation. \ph{positioning relative to prior heat-projection studies for
-Bangladesh / South Asia.}
+radiation. This validated, multi-index projection extends prior Bangladeshi
+heat-projection work that has largely treated single indices in isolation---most
+notably the heat-index appraisal of \citet{rahman2021} and the WBGT trend analysis
+of \citet{kamal2024scientific}---and complements single-algorithm forecasting
+precedents such as \citet{mollah2026mlheatindex} and \citet{islam2026enso} by
+covering all seven conditions jointly and validating them out-of-sample.
 
 \subsection{Skill must be interpreted correctly}
 A central and deliberately transparent result is that, although the ensembles
@@ -791,8 +959,12 @@ monthly error but the provision of a spatially complete, uncertainty-quantified,
 and trend-consistent projection---including physiologically relevant indices and
 their operational risk classes---that a bare climatology cannot supply. We state
 this explicitly to discourage over-claiming predictive skill that the data do not
-support. \ph{contrast with studies that report ML skill without a climatology
-baseline.}
+support. This transparency deliberately contrasts with the common practice of
+reporting high absolute accuracy---for instance the $R^{2}$ values near $0.99$ and
+$0.88$--$0.97$ reported for Bangladeshi heat-index and temperature prediction by
+\citet{mollah2026mlheatindex} and \citet{islam2026enso}---without benchmarking
+against a climatological reference, which can make routine seasonal reconstruction
+appear as genuine forecasting skill.
 
 \subsection{Physical and spatial interpretation}
 The observational analysis reveals a coherent but spatially structured warming
@@ -807,8 +979,14 @@ Humid Heat zones carry the greatest projected burden across perceived heat,
 humid heat, and cooling-energy demand, whereas the elevated Haor/Wetland basin is
 consistently mildest; the coastal belt in particular combines the highest
 wet-bulb temperatures and cooling degree-days, marking it as a priority region.
-\ph{link the diurnal-range and coastal-humidity findings to physiological and
-epidemiological literature on wet-bulb thresholds.}
+These patterns matter physiologically: the elevated coastal wet-bulb burden erodes
+the evaporative margin that \citet{raymond2020} identified as the hard limit of
+human heat tolerance, in the same coastal belt where \citet{tanim2024heat} found
+the steepest historical rise in heat discomfort. The widening diurnal range is also
+epidemiologically salient, since reduced nighttime cooling impairs physiological
+recovery and compounds the heatstroke-mortality and labour-capacity risks
+documented for Bangladesh and for outdoor workers more broadly
+\citep{miah2026,flouris2022}.
 
 \subsection{Operational risk categories and their message}
 Translating the projections into established risk classes sharpens the
@@ -821,8 +999,12 @@ absent---a direct and important consequence of categorising monthly means rather
 than daily maxima (Section~\ref{sec:conditions}), which the categories must be
 read against. The nationwide reach of the UV and humidity hazards, contrasted with
 the more spatially variable heat-index and WBGT burden, argues for differentiated
-adaptation responses. \ph{connect UV and oppressive-humidity exposure to health
-outcomes and occupational-safety guidance.}
+adaptation responses: the near-universal High-to-Very-High UV exposure calls for
+the sun-protection measures codified in the WHO UV-index guidance \citep{who2002},
+whereas the humid-heat burden is better addressed through the WBGT-based
+occupational-safety framework of ISO~7243 \citep{iso7243_2017,parsons2006}, whose
+relevance is amplified by the large humid-heat labour losses estimated for South
+Asian outdoor workers \citep{parsons2021labor}.
 
 \subsection{Methodological reflections}
 Three design choices proved consequential. First, recomputing indices from
@@ -855,14 +1037,26 @@ reanalysis-blended source; despite strong 2025 validation, independent
 station-based corroboration would strengthen confidence, and the early-record
 inhomogeneity in a subset of districts (mitigated here by masking) illustrates the
 sensitivity of long-run trends to input quality. (v)~The models add little skill
-over climatology at monthly scale, as discussed above. \ph{compare these
-limitations and the horizon choice with dynamical-downscaling and CMIP-based
-projection studies.}
+over climatology at monthly scale, as discussed above. The 24-month horizon is
+complementary to, rather than competitive with, the multi-decadal CMIP6 projections
+available for Bangladesh and the wider region \citep{khatun2024,kushwaha2026humidex}:
+those studies bound the long-term trajectory under emission scenarios, whereas the
+present framework supplies the near-term, district-resolved, externally validated
+detail that dynamical downscaling cannot yet deliver at this resolution.
 
 \subsection{Outlook}
-\ph{future-work paragraph: daily-resolution extension, integration with health
-and energy-demand data, and comparison with dynamical projections --- to be
-completed with the literature review.}
+Several extensions follow naturally. A daily-resolution implementation would
+recover the short-duration extremes that monthly means smooth away and let the risk
+categories reflect daily peaks---the regime in which the heatstroke indicator
+excluded here may regain skill \citep{ehsan2026extremeheat}. Coupling the projected
+fields with health-surveillance and cooling-energy records would convert the
+physical outlook into quantified public-health and infrastructure burdens
+\citep{miah2026}. Methodologically, the framework can absorb recent advances in the
+individual conditions---reanalysis-based UV retrieval \citep{teggi2026uvindex} and
+attention-based dew-point models with explainability \citep{abdullah2025xai}---and
+its near-term projections can be systematically benchmarked against CMIP6 dynamical
+downscaling \citep{khatun2024} to bridge near-term operational forecasting and
+long-term climate projection.
 
 %% ===========================================================================
 \section{Conclusion}\label{sec:conclusion}
@@ -917,7 +1111,7 @@ any access/licence details.}
 %% References. Entries live in references.bib (partner's verified set plus a
 %% few [verify-intended] additions for the Methods citations).
 %% ===========================================================================
-\bibliographystyle{elsarticle-num}
+\bibliographystyle{elsarticle-num-names}
 \bibliography{references}
 
 \end{document}
