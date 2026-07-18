@@ -1,5 +1,5 @@
 %% ===========================================================================
-%%  Manuscript for Urban Climate (Elsevier)  ---  elsarticle, review format
+%%  Manuscript for Urban Climate (Elsevier)     elsarticle, review format
 %%  Compile with:  tectonic -X compile manuscript.tex
 %%
 %%  STATUS: Methods section complete and grounded in the actual pipeline.
@@ -30,11 +30,11 @@
 
 \begin{frontmatter}
 
-%% ---- Title -------------------------------------------------------------
+%% -- Title --
 \title{Where and How Fast Is Heat Stress Worsening? A District-Level, Multi-Index
 Machine-Learning Projection for 64 districts of Bangladesh }
 
-%% ---- Authors (5 entries; author~1 is complete, 2--5 are copies to rename)
+%% -- Authors (5 entries; author~1 is complete, 2--5 are copies to rename)
 \author[bup]{Mohammad Khalid Hasan Nabil\corref{cor1}}
 \ead{nabil23549009015@student.bup.edu.bd}
 
@@ -51,15 +51,16 @@ Machine-Learning Projection for 64 districts of Bangladesh }
 
 \cortext[cor1]{Corresponding author. ORCID: 0009-0007-3255-1420}
 
-%% ---- Abstract ----------------------------------------------------------
+%% -- Abstract --
 \begin{abstract}
 Rising heat and humidity increasingly threaten health, labour, and energy systems
 across Bangladesh, yet operational planning needs district-resolved,
 uncertainty-aware projections of the specific conditions that drive human heat
 stress. We present a deterministic, reproducible machine-learning framework that
-projects seven temperature-correlated heat-stress conditions---heat-index comfort,
+projects seven temperature-correlated heat-stress conditions heat-index comfort,
 wet-bulb temperature, indoor and outdoor wet-bulb globe temperature, cooling
-degree-days, ultraviolet exposure, and dew-point moisture stress---for all 64
+degree-days, ultraviolet exposure, and dew-point moisture stress
+for all 64
 districts of Bangladesh. Four gradient-boosting ensembles are trained on the
 2014--2024 monthly record using future-known seasonal features; the observed
 1980--2024 Theil--Sen trend is superimposed so that projections evolve
@@ -76,7 +77,7 @@ calibrated uncertainty bands provide a directly actionable heat-stress outlook
 while transparently bounding the models' skill relative to climatology.
 \end{abstract}
 
-%% ---- Keywords (suggested; editable) ------------------------------------
+%% -- Keywords (suggested; editable) --
 \begin{keyword}
 heat stress \sep wet-bulb temperature \sep WBGT \sep seasonal projection \sep
 gradient boosting \sep Mann--Kendall trend \sep Bangladesh \sep climate adaptation
@@ -105,8 +106,8 @@ Air temperature alone does not represent the heat stress the human body actually
 experiences and can lead to misleading assessments. Relative humidity, solar
 radiation, wind, and atmospheric moisture all govern the body's ability to shed
 heat through evaporation, radiation, and convection; elevated humidity in
-particular suppresses the evaporation of sweat---the body's primary cooling
-mechanism---so that core temperature rises even when the air is not exceptionally
+particular suppresses the evaporation of sweat the body's primary cooling
+mechanism so that core temperature rises even when the air is not exceptionally
 hot \citep{steadman1979}. To capture these combined effects, researchers have
 developed composite heat-stress indices that now underpin public-health warning
 systems, occupational heat-safety standards \citep{iso7243_2017}, and cooling-energy
@@ -120,7 +121,7 @@ outdoor and informal-sector labour. Bangladesh occupies a uniquely exposed
 position within it: a tropical monsoon climate, low-lying deltaic geography, and
 exceptionally high population density combine with rapid, unplanned urbanization
 to let heat stress intensify quickly and distribute unevenly across the landscape
-\citep{Sultana2021}. Critically, the country is not climatically homogeneous---its
+\citep{Sultana2021}. Critically, the country is not climatically homogeneous its
 territory spans drought-prone northwestern plains with continental microclimates,
 a densely built and heat-retentive central urban core exhibiting strong urban
 heat-island effects, low-lying coastal districts shaped by maritime humidity,
@@ -128,8 +129,8 @@ seasonally inundated wetland basins, and elevated hill tracts with distinct
 topographic regimes. Each zone is expected to experience thermal stress through
 different pathways and at different intensities, yet most existing heat-risk
 assessments in Bangladesh continue to treat the country as a single climatic unit
-or rely on a narrow selection of indices---most commonly ambient temperature
-alone---without accounting for the multi-dimensional nature of heat exposure
+or rely on a narrow selection of indices most commonly ambient temperature
+alone without accounting for the multi-dimensional nature of heat exposure
 \citep{Abrar2022}.
 
 A parallel gap exists in temporal scope and forecasting capability. Most prior
@@ -137,8 +138,8 @@ work on heat stress in Bangladesh is retrospective in orientation or resolved on
 to divisional or national summaries, and very few studies integrate long-term
 climatological baselines with near-term machine-learning forecasting to project
 how thermal stress will evolve at the district level~\vi. This omission matters,
-because heat-risk management---whether through early-warning systems, occupational
-health policy, or urban cooling infrastructure---requires knowing not only where
+because heat-risk management whether through early-warning systems, occupational
+health policy, or urban cooling infrastructure requires knowing not only where
 risk is highest today but where and how quickly it is worsening. A recent
 wet-bulb globe temperature analysis across Bangladesh reported warming of roughly
 0.08--0.5\,\degC per decade, most pronounced in the southeast and northeast
@@ -147,9 +148,9 @@ projection.
 
 This study addresses these gaps through the Temperature-Correlated Conditions
 (TCC) framework: an integrated set of seven temperature-dependent indicators
----heat-index comfort, wet-bulb temperature, indoor and outdoor wet-bulb globe
+ heat-index comfort, wet-bulb temperature, indoor and outdoor wet-bulb globe
 temperature, heatstroke risk, cooling degree-days, ultraviolet exposure, and
-dew-point moisture stress---each capturing a distinct physiological, biophysical,
+dew-point moisture stress each capturing a distinct physiological, biophysical,
 or infrastructural dimension of heat-related risk. Applying this framework to
 45~years (1980--2024) of district-level meteorological records across all
 64~districts and six climatically distinct zones, we (i)~train an ensemble of
@@ -169,7 +170,7 @@ simple-additive-weighting scheme with a generalization-gap penalty
 
 Two features distinguish the analysis. First, results are reported at full
 district resolution through choropleth maps rather than aggregated away, exposing
-spatial gradients---such as the coastal concentration of humid-heat burden---that
+spatial gradients such as the coastal concentration of humid-heat burden that
 zonal summaries obscure. Second, we are explicit about the limits of predictive
 skill: at monthly resolution the ensembles essentially match climatology, so their
 value lies in providing spatially complete, uncertainty-aware, and
@@ -262,9 +263,9 @@ in this study.
 \subsection{Machine learning for meteorological and thermal-index forecasting}
 Ensemble tree methods have consistently outperformed conventional statistical and
 numerical approaches for temperature and humidity forecasting in data-rich,
-strongly seasonal settings. The gradient-boosting family---XGBoost
+strongly seasonal settings. The gradient-boosting family XGBoost
 \citep{chen2016xgboost}, LightGBM \citep{ke2017lightgbm}, and CatBoost
-\citep{prokhorenkova2018catboost}---recurs as a strong, interpretable baseline
+\citep{prokhorenkova2018catboost} recurs as a strong, interpretable baseline
 across environmental prediction problems. In Bangladesh, \citet{islam2026enso}
 found XGBoost most accurate for seasonal temperature prediction across 29 stations
 ($R^{2}=0.88$ for maximum and $0.97$ for minimum temperature) when trained on ENSO
@@ -275,7 +276,7 @@ average-temperature prediction over a 60-year series. Most directly,
 \citet{mollah2026mlheatindex} benchmarked ARIMAX, SARIMAX, Random Forest, XGBoost,
 and LSTM on 3-hourly Dhaka records (2014--2023) for conditional, scenario-based
 heat-index projection, with Random Forest achieving the lowest error
-(RMSE~$=0.85\,\degC$, $R^{2}=0.987$)---a close methodological precedent for the
+(RMSE~$=0.85\,\degC$, $R^{2}=0.987$) a close methodological precedent for the
 present work. The value of combining gradient-boosting learners is illustrated by
 \citet{kim2023toxins}, whose stacked XGBoost/LightGBM/CatBoost ensemble reached
 $R^{2}=0.93$, outperforming any single model. Fourier-based encoding of seasonal
@@ -299,9 +300,9 @@ intensify faster than temperature extremes owing to rising humidity;
 \citet{saha2025postescalation} documented a post-2000 escalation of humid heatwaves
 across Northeast India and Bangladesh; and \citet{tabassum2025coolroofs} connected
 a cool-roof intervention to measurable Humidex reductions during a Dhaka heat wave.
-Heatstroke-risk modelling has matured chiefly outside Bangladesh---%
+Heatstroke-risk modelling has matured chiefly outside Bangladesh %
 \citet{xuh2024heatstroke} trained interpretable models linking meteorology to
-heatstroke incidence in South China---with \citet{ehsan2026extremeheat} providing a
+heatstroke incidence in South China with \citet{ehsan2026extremeheat} providing a
 recent Bangladesh-focused machine-learning forecast of extreme-heat health impact;
 consistent with this thin evidence base, the present study computes a heatstroke
 indicator but, as reported below, excludes it from the validated results for a lack
@@ -325,8 +326,8 @@ multi-decadal backdrop against which the near-term (2025--2026) forecasts genera
 here should be read.
 
 \subsection{Research gaps addressed by this study}
-Three gaps emerge from this review. First, although individual indices---chiefly
-WBGT and the heat index---have been examined for Bangladesh in isolation, no study
+Three gaps emerge from this review. First, although individual indices chiefly
+WBGT and the heat index have been examined for Bangladesh in isolation, no study
 has simultaneously computed, validated, and forecast seven complementary
 thermal-stress conditions within a single framework, at district resolution, across
 climatically distinct zones. Second, existing Bangladeshi forecasting work has
@@ -334,9 +335,9 @@ relied on conventional statistics, CMIP6 downscaling, or single-algorithm machin
 learning; the multi-algorithm gradient-boosting ensemble with Fourier feature
 engineering and an explicitly re-imposed observational trend proposed here has not
 previously been applied to thermal-stress forecasting in this context. Third, the
-six-zone climatological structure of Bangladesh---Northwest dry-hot plains, Central
+six-zone climatological structure of Bangladesh Northwest dry-hot plains, Central
 urban core, Southwest saline-drought belt, Coastal maritime zone, Haor wetland
-basins, and Hill Tracts---has not previously organised a multi-index heat-risk
+basins, and Hill Tracts has not previously organised a multi-index heat-risk
 assessment, leaving intra-national thermal heterogeneity systematically
 undercharacterised. In contrast to studies built on ERA5 reanalysis, the present
 work is driven by station-derived Visual Crossing records and validated
@@ -402,9 +403,9 @@ are filled by linear interpolation. All modelling is performed on these monthly
 series.
 
 \subsection{Feature construction}\label{sec:features}
-To respect a strict \emph{future-known-features-only} constraint---no lags,
+To respect a strict \emph{future-known-features-only} constraint no lags,
 rolling windows, or autoregressive terms that would be unavailable at projection
-time---each month is described by a deterministic seasonal--secular feature
+time each month is described by a deterministic seasonal--secular feature
 vector. Seasonality is encoded by a truncated Fourier series with period
 $P=12$~months and $H=3$ harmonics,
 \begin{equation}
@@ -479,7 +480,7 @@ A_{\tau}=\frac{1}{N}\sum_{n=1}^{N}\mathbf{1}\!\big(\lvert y_{n}-\hat{y}_{n}\rver
 
 The winning model is chosen by Simple Additive Weighting (SAW), a multi-attribute
 decision-making scheme \citep{Hwang1981}, with a generalisation-gap penalty. Each criterion $c$ is min--max normalised across the
-four candidates---directly for benefit criteria and by complement for cost
+four candidates directly for benefit criteria and by complement for cost
 criteria,
 \begin{equation}
 \tilde{s}_{c}=
@@ -703,8 +704,8 @@ field (55/64) and was competitive for solar radiation and UV.
 The projected 2025 fields, produced without any exposure to 2025 observations,
 validated strongly (Table~\ref{tab:validation}). Median $R^{2}$ reached 0.982 for
 minimum temperature, 0.980 for dew point, and 0.950 for mean temperature (RMSE
-$0.72\,\degC$). Crucially, the thermal-stress indices---recomputed from the
-projected primary variables rather than predicted directly---also validated well:
+$0.72\,\degC$). Crucially, the thermal-stress indices recomputed from the
+projected primary variables rather than predicted directly also validated well:
 wet-bulb temperature and shade WBGT both at $R^{2}=0.969$ (RMSE $\le
 0.63\,\degC$), sun WBGT at 0.966, the heat index at 0.951 (RMSE $1.36\,\degC$),
 and cooling degree-days at 0.951. Maximum temperature (0.845), humidity (0.825),
@@ -785,7 +786,7 @@ projected annual-mean heat index in the Southwest Hot--Dry Zone
 ($31.0\,\degC$) and the Coastal Humid Heat Zone ($30.6\,\degC$), and the lowest
 in the Haor/Wetland Zone ($28.0\,\degC$); sun WBGT peaked in the coastal belt
 ($25.5\,\degC$). The two continuous-burden conditions reinforce this ordering:
-projected cooling degree-days---a proxy for building cooling-energy demand---were
+projected cooling degree-days a proxy for building cooling-energy demand were
 highest in the Southwest Hot--Dry and Coastal Humid Heat zones
 ($9.1$ and $9.0\,\degC\,\mathrm{d\,d^{-1}}$) and lowest in the Haor/Wetland Zone
 ($7.0$), while projected wet-bulb temperature, the thermodynamic ceiling on
@@ -828,7 +829,7 @@ CDD ($\degC$\,d\,d$^{-1}$).}
 (heat index, sun WBGT, wet-bulb temperature, dew point, cooling degree-days, and
 UV index). The temperature-driven conditions peak in the pre-monsoon to monsoon
 window, whereas the UV index peaks in the dry pre-monsoon (March--April) and
-falls during the cloudy monsoon --- a distinct, radiation-driven seasonality.}
+falls during the cloudy monsoon   a distinct, radiation-driven seasonality.}
 \label{fig:heatmap}
 \end{figure}
 
@@ -855,7 +856,7 @@ Mapping the projected fields onto their risk-category systems yields a
 policy-facing summary of the seven conditions (Table~\ref{tab:catdist}). Under
 monthly-mean heat index, projected months split between Comfortable (37.8\%) and
 Extreme Caution (51.8\%), with the intermediate Caution class at 10.2\% and the
-Danger class essentially absent (0.1\%)---the latter a direct consequence of
+Danger class essentially absent (0.1\%) the latter a direct consequence of
 categorising monthly means rather than daily peaks. Outdoor WBGT was
 predominantly Low (59.0\%) to Moderate (37.0\%), reaching the High class in
 3.9\% of months, while indoor (shade) WBGT rarely left the Low class (79.8\%).
@@ -933,17 +934,17 @@ year-to-year differences in the projection.
 This study delivers district-resolved, uncertainty-aware near-term projections of
 seven temperature-correlated heat-stress conditions for all 64 districts of
 Bangladesh, together with a leakage-free external validation against independent
-2025 observations. The recomputed thermal indices validated strongly---heat
-index, wet-bulb temperature, and WBGT all at median $R^{2}\ge0.95$---and, when
+2025 observations. The recomputed thermal indices validated strongly heat
+index, wet-bulb temperature, and WBGT all at median $R^{2}\ge0.95$ and, when
 mapped onto their operational risk classes, reproduced the observed 2025 class in
 $81$--$90\%$ of district-months exactly and in $100\%$ to within one adjacent
 class. Because the indices are computed from the projected primary variables
 rather than predicted directly, this accuracy is achieved without target leakage
 and while preserving the physical coupling among temperature, humidity, and
 radiation. This validated, multi-index projection extends prior Bangladeshi
-heat-projection work that has largely treated single indices in isolation---most
+heat-projection work that has largely treated single indices in isolation most
 notably the heat-index appraisal of \citet{rahman2021} and the WBGT trend analysis
-of \citet{kamal2024scientific}---and complements single-algorithm forecasting
+of \citet{kamal2024scientific} and complements single-algorithm forecasting
 precedents such as \citet{mollah2026mlheatindex} and \citet{islam2026enso} by
 covering all seven conditions jointly and validating them out-of-sample.
 
@@ -956,13 +957,13 @@ resolution the tropical seasonal cycle dominates the variance, and any competent
 learner reconstructs the climatological annual march that climatology also
 encodes. The contribution of the framework is therefore not a reduction in
 monthly error but the provision of a spatially complete, uncertainty-quantified,
-and trend-consistent projection---including physiologically relevant indices and
-their operational risk classes---that a bare climatology cannot supply. We state
+and trend-consistent projection including physiologically relevant indices and
+their operational risk classes that a bare climatology cannot supply. We state
 this explicitly to discourage over-claiming predictive skill that the data do not
 support. This transparency deliberately contrasts with the common practice of
-reporting high absolute accuracy---for instance the $R^{2}$ values near $0.99$ and
+reporting high absolute accuracy for instance the $R^{2}$ values near $0.99$ and
 $0.88$--$0.97$ reported for Bangladeshi heat-index and temperature prediction by
-\citet{mollah2026mlheatindex} and \citet{islam2026enso}---without benchmarking
+\citet{mollah2026mlheatindex} and \citet{islam2026enso} without benchmarking
 against a climatological reference, which can make routine seasonal reconstruction
 appear as genuine forecasting skill.
 
@@ -971,7 +972,7 @@ The observational analysis reveals a coherent but spatially structured warming
 signal. Maximum temperature increased in every district (median $+0.56\,\degC$
 per decade) while minimum temperature remained essentially flat (median
 $+0.02\,\degC$ per decade), implying a widening diurnal temperature range across
-much of the country---a pattern with distinct implications for daytime heat
+much of the country a pattern with distinct implications for daytime heat
 exposure and nighttime physiological recovery. Humid-heat indices (heat index,
 wet-bulb, WBGT) rose in $57$--$58$ of 64 districts, confirming that the warming is
 not purely a dry-bulb phenomenon. Spatially, the Southwest Hot--Dry and Coastal
@@ -995,7 +996,7 @@ essentially the entire country falls in the WHO High class or above throughout t
 projection, and dew-point moisture stress reaches the Extremely Oppressive class
 in almost half of all projected months. Heat-index comfort is dominated by the
 Extreme Caution class in the warm season, while the Danger class is essentially
-absent---a direct and important consequence of categorising monthly means rather
+absent a direct and important consequence of categorising monthly means rather
 than daily maxima (Section~\ref{sec:conditions}), which the categories must be
 read against. The nationwide reach of the UV and humidity hazards, contrasted with
 the more spatially variable heat-index and WBGT burden, argues for differentiated
@@ -1011,8 +1012,8 @@ Three design choices proved consequential. First, recomputing indices from
 projected primary variables (rather than modelling them directly) both prevents
 target leakage and guarantees internal physical consistency of the projected
 fields. Second, the detrend--residual--retrend construction resolves a failure
-mode of tree ensembles---their inability to extrapolate a calendar-year
-feature---so that projected years evolve with the observed climate trend instead
+mode of tree ensembles their inability to extrapolate a calendar-year
+feature so that projected years evolve with the observed climate trend instead
 of collapsing onto the last training year; imposing the robust 1980--2024 Sen
 slope additionally keeps the projection consistent with the manuscript's own
 trend analysis by construction. Third, the district choropleths exposed a
@@ -1047,13 +1048,13 @@ detail that dynamical downscaling cannot yet deliver at this resolution.
 \subsection{Outlook}
 Several extensions follow naturally. A daily-resolution implementation would
 recover the short-duration extremes that monthly means smooth away and let the risk
-categories reflect daily peaks---the regime in which the heatstroke indicator
+categories reflect daily peaks the regime in which the heatstroke indicator
 excluded here may regain skill \citep{ehsan2026extremeheat}. Coupling the projected
 fields with health-surveillance and cooling-energy records would convert the
 physical outlook into quantified public-health and infrastructure burdens
 \citep{miah2026}. Methodologically, the framework can absorb recent advances in the
-individual conditions---reanalysis-based UV retrieval \citep{teggi2026uvindex} and
-attention-based dew-point models with explainability \citep{abdullah2025xai}---and
+individual conditions reanalysis-based UV retrieval \citep{teggi2026uvindex} and
+attention-based dew-point models with explainability \citep{abdullah2025xai} and
 its near-term projections can be systematically benchmarked against CMIP6 dynamical
 downscaling \citep{khatun2024} to bridge near-term operational forecasting and
 long-term climate projection.
@@ -1067,7 +1068,7 @@ ensembles on the 2014--2024 record with future-known seasonal features,
 re-imposing the observed 1980--2024 trend, and recomputing every thermal index
 from the projected primary variables, the framework produced district-level
 24-month projections that validated strongly against independent 2025
-observations---median $R^{2}$ of $0.95$--$0.98$ for the key indices, with
+observations median $R^{2}$ of $0.95$--$0.98$ for the key indices, with
 operational risk classes reproduced to within one category in $100\%$ of
 district-months.
 
@@ -1080,8 +1081,8 @@ greatest combined perceived-heat, humid-heat, and cooling-energy burden, whereas
 ultraviolet and oppressive-humidity hazards were effectively nationwide. Crucially,
 the ensembles were found to be at parity with monthly climatology; the framework's
 contribution is therefore not improved monthly accuracy but a spatially complete,
-uncertainty-aware, and trend-consistent outlook---delivered at full district
-resolution---that supports targeted heat-adaptation planning. One indicator,
+uncertainty-aware, and trend-consistent outlook delivered at full district
+resolution that supports targeted heat-adaptation planning. One indicator,
 heatstroke risk, was excluded from the predictive results for a lack of
 out-of-sample skill and reported only descriptively.
 
@@ -1100,9 +1101,9 @@ data-constrained, climatically heterogeneous regions.
 \noindent\textbf{Mohammad Khalid Hasan Nabil:} Conceptualization, Methodology,
 Software, Formal analysis, Investigation, Data curation, Writing -- original
 draft, Writing -- review \& editing, Project administration.\\[2pt]
-\textbf{Tahia:} Investigation, Writing -- original draft (Introduction, Literature
+\textbf{Tahia Parsha:} Investigation,software, Writing -- original draft (Introduction, Literature
 Review, Abstract), Writing -- review \& editing.\\[2pt]
-\textbf{Usama:} Investigation, Writing -- original draft (Methodology framework
+\textbf{Musayeb Hossain Usama:} Investigation, software, Writing -- original draft (Methodology framework
 support).
 
 \section*{Declaration of competing interest}
@@ -1181,7 +1182,7 @@ archived on Zenodo (\url{https://doi.org/10.5281/zenodo.21418291}).
 \bibitem[{{International Organization for
   Standardization}(2017)}]{iso7243_2017}
 \bibinfo{author}{{International Organization for Standardization}},
-  \bibinfo{title}{Ergonomics of the thermal environment --- {Assessment} of
+  \bibinfo{title}{Ergonomics of the thermal environment   {Assessment} of
   heat stress using the {WBGT} (wet bulb globe temperature) index},
   \bibinfo{year}{2017}.
 %Type = Article
