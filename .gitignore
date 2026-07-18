@@ -29,3 +29,8 @@ Thumbs.db
 
 # Scratch
 scratchpad/
+
+# Raw Visual Crossing weather data — licensed, not for public redistribution.
+# Kept locally so the pipeline runs; excluded from the repo. See README.
+1980-2024-dataset/
+2025-dataset/
