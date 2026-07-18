@@ -5,9 +5,10 @@ Trend-aware machine-learning projection and validation of seven
 64 districts of Bangladesh, with a reviewer-facing manuscript targeted at
 *Urban Climate* (Elsevier).
 
-> **Private repository.** Contains raw meteorological data obtained from the
-> Visual Crossing Weather API under a free/educational account — **do not
-> redistribute the datasets publicly** (see *Data* below).
+> **Note on data.** The raw Visual Crossing weather CSVs are **not included** in
+> this repository — their free/educational terms restrict public redistribution.
+> The pipeline is fully reproducible with your own Visual Crossing account
+> (see *Data* below).
 
 ## What this does
 
@@ -75,7 +76,10 @@ py -3.14 -m streamlit run dashboard/app.py
 
 Meteorological data: **Visual Crossing Weather API** (https://www.visualcrossing.com),
 collected under a free/educational account. Their terms restrict public
-redistribution — keep this repository private and do not publish the CSVs.
+redistribution, so the raw CSVs are **not distributed here**. To reproduce, obtain
+a Visual Crossing account and download daily records per district into
+`1980-2024-dataset/` and `2025-dataset/` using the filename convention in
+`tcc_pipeline/config.py` and `build_assets.py`.
 
 District boundaries: **geoBoundaries** gbOpen Bangladesh ADM2
 (CC BY 3.0 IGO; source HDX/BBS 2015).
