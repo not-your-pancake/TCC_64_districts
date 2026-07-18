@@ -74,7 +74,9 @@ remains flat, indicating a widening diurnal range; the coastal and southwestern
 zones carry the greatest combined burden, and ultraviolet and oppressive-humidity
 hazards are effectively nationwide. District choropleths, zonal envelopes, and
 calibrated uncertainty bands provide a directly actionable heat-stress outlook
-while transparently bounding the models' skill relative to climatology.
+while transparently bounding the models' skill relative to climatology. The
+complete 64-district, seven-condition projection is openly explorable through an
+accompanying interactive web application.
 \end{abstract}
 
 %% -- Keywords (suggested; editable) --
@@ -668,7 +670,9 @@ The pipeline is implemented in Python~3.14 using scikit-learn~1.8
 NumPy, pandas, and Matplotlib. All stochastic components use a fixed seed, and a
 run manifest records package versions, configuration constants, and per-run
 timings so that every reported artefact is traceable to a specific
-configuration.
+configuration. The complete source code, the reviewer workbook, and an
+interactive web application that exposes every district and condition are
+released with the study (see Data availability).
 
 %% ===========================================================================
 \section{Results}\label{sec:results}
@@ -677,7 +681,11 @@ The full pipeline was executed for all 64 districts, producing 448
 district--variable models, a 24-month projection (January~2025--December~2026)
 per district, an out-of-sample validation against observed 2025, and the
 1980--2024 observational trend analysis. Unless stated otherwise, statistics are
-reported as the median across the 64 districts.
+reported as the median across the 64 districts. Because the complete per-district
+projections, validations, and risk categories for all seven conditions cannot be
+reproduced in print, they are additionally provided through an interactive web
+dashboard\footnote{\url{https://tcc-64-districts-mohammad-khalid.streamlit.app/}}
+through which any district and condition can be explored directly.
 
 \subsection{Predictive accuracy and model selection}\label{sec:res-models}
 On the chronological 2023--2024 hold-out, the ensembles reproduced the primary
@@ -1113,7 +1121,10 @@ The raw daily meteorological data are available from the Visual Crossing Weather
 API (\url{https://www.visualcrossing.com}). The complete deterministic
 machine-learning pipeline source code, the interactive Streamlit web-application
 dashboard, and the comprehensive 64-district projected dataset are permanently
-archived on Zenodo (\url{https://doi.org/10.5281/zenodo.21418291}).
+archived on Zenodo (\url{https://doi.org/10.5281/zenodo.21418291}). The
+interactive dashboard---which visualises the projections, validation, and risk
+categories for all 64 districts and seven conditions---is served live at
+\url{https://tcc-64-districts-mohammad-khalid.streamlit.app/}.
 
 %% ===========================================================================
 %% References. Entries live in references.bib (partner's verified set plus a
