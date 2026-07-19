@@ -1,0 +1,343 @@
+/* ==========================================================================
+   TCC Bangladesh — "Heat Ember" dark theme
+   Glassmorphism layer injected on top of .streamlit/config.toml base theme.
+   Design tokens mirror dashboard/app.py — change both together.
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --page:      #0b0e15;
+  --card:      #151b28;
+  --glass-hi:  rgba(255, 255, 255, 0.045);
+  --glass-lo:  rgba(255, 255, 255, 0.015);
+  --edge:      rgba(255, 255, 255, 0.08);
+  --edge-hot:  rgba(255, 107, 74, 0.38);
+  --ink:       #eef1f8;
+  --ink-2:     #aab3c5;
+  --muted:     #7c869c;
+  --accent:    #ff6b4a;
+  --ember:     #ef5330;
+  --amber:     #ffb86b;
+  --cool:      #4da3ff;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+  --font-head: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --glow:      0 12px 34px rgba(239, 83, 48, 0.16);
+  --shadow:    0 8px 28px rgba(0, 0, 0, 0.35);
+  --ease:      cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* ---- ambient ember atmosphere ------------------------------------------- */
+.stApp {
+  background:
+    radial-gradient(1200px 800px at 85% -10%, rgba(255, 107, 74, 0.13), transparent 60%),
+    radial-gradient(1000px 700px at -10% 110%, rgba(77, 163, 255, 0.10), transparent 55%),
+    radial-gradient(800px 600px at 55% 115%, rgba(255, 184, 107, 0.05), transparent 60%),
+    var(--page);
+  background-attachment: fixed;
+}
+[data-testid="stHeader"] {
+  background: linear-gradient(180deg, rgba(11, 14, 21, 0.85), rgba(11, 14, 21, 0));
+  backdrop-filter: blur(6px);
+}
+[data-testid="stMainBlockContainer"] {
+  max-width: 1440px;
+  padding-top: 2.2rem;
+  animation: tcc-fade-up 0.55s var(--ease) both;
+}
+
+/* ---- typography ---------------------------------------------------------- */
+html, body, .stApp, .stMarkdown, p, li { font-family: var(--font-body); }
+h1, h2, h3, h4, [data-testid="stMetricValue"] {
+  font-family: var(--font-head) !important;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+[data-testid="stMainBlockContainer"] h2 { font-size: 1.45rem; font-weight: 600; }
+[data-testid="stMainBlockContainer"] h3 { font-size: 1.12rem; font-weight: 600; color: var(--ink-2); }
+[data-testid="stCaptionContainer"], .stCaption { color: var(--muted) !important; }
+a { color: var(--amber); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---- hero ---------------------------------------------------------------- */
+.tcc-hero { padding: 0.2rem 0 0.4rem; }
+.tcc-hero h1 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.9rem, 3.4vw, 2.7rem);
+  font-weight: 700;
+  line-height: 1.12;
+  background: linear-gradient(92deg, #ffffff 0%, #ffd9a8 48%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tcc-hero .sub { color: var(--ink-2); font-size: 1.02rem; margin: 0 0 0.9rem; max-width: 70ch; }
+
+/* ---- chips --------------------------------------------------------------- */
+.tcc-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0.2rem 0 0.6rem; }
+.tcc-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--edge);
+  background: var(--glass-hi);
+  color: var(--ink-2);
+  font-size: 0.78rem; font-weight: 500; letter-spacing: 0.03em;
+  backdrop-filter: blur(8px);
+}
+.tcc-chip .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 8px var(--accent); }
+.tcc-chip.cool .dot { background: var(--cool); box-shadow: 0 0 8px var(--cool); }
+.tcc-chip.amber .dot { background: var(--amber); box-shadow: 0 0 8px var(--amber); }
+
+/* ---- KPI cards ------------------------------------------------------------ */
+.tcc-kpi-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin: 0.9rem 0 0.4rem;
+}
+.tcc-kpi {
+  position: relative;
+  padding: 18px 20px 16px;
+  border-radius: 18px;
+  border: 1px solid var(--edge);
+  background: linear-gradient(160deg, var(--glass-hi), var(--glass-lo));
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.25s var(--ease), border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.tcc-kpi::before {
+  content: "";
+  position: absolute; inset: 0 0 auto 0; height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 107, 74, 0.7), transparent);
+  opacity: 0.55;
+}
+.tcc-kpi:hover { transform: translateY(-3px); border-color: var(--edge-hot); box-shadow: var(--glow); }
+.tcc-kpi .ico { position: absolute; top: 14px; right: 16px; font-size: 1.15rem; opacity: 0.8; }
+.tcc-kpi .l {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.09em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 8px;
+}
+.tcc-kpi .v {
+  font-family: var(--font-head);
+  font-size: 2.05rem; font-weight: 700; line-height: 1.05;
+  background: linear-gradient(120deg, #ffffff, #ffd9a8);
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.tcc-kpi .s { margin-top: 6px; font-size: 0.8rem; color: var(--ink-2); }
+
+/* ---- feature cards (overview) --------------------------------------------- */
+.tcc-feature {
+  display: flex; gap: 13px; align-items: flex-start;
+  padding: 14px 16px;
+  border-radius: 15px;
+  border: 1px solid var(--edge);
+  background: linear-gradient(160deg, var(--glass-hi), var(--glass-lo));
+  margin-bottom: 10px;
+  transition: transform 0.22s var(--ease), border-color 0.22s var(--ease);
+}
+.tcc-feature:hover { transform: translateX(4px); border-color: var(--edge-hot); }
+.tcc-feature .fi {
+  flex: 0 0 auto; width: 38px; height: 38px; border-radius: 12px;
+  display: grid; place-items: center; font-size: 1.05rem;
+  background: linear-gradient(135deg, rgba(255, 107, 74, 0.18), rgba(255, 184, 107, 0.08));
+  border: 1px solid rgba(255, 107, 74, 0.25);
+}
+.tcc-feature b { display: block; color: var(--ink); font-family: var(--font-head); font-size: 0.95rem; margin-bottom: 2px; }
+.tcc-feature span { color: var(--ink-2); font-size: 0.84rem; line-height: 1.45; }
+
+/* ---- risk meters ----------------------------------------------------------- */
+.tcc-meter { margin: 0 0 13px; }
+.tcc-meter .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+.tcc-meter .name { font-size: 0.84rem; color: var(--ink-2); }
+.tcc-meter .val { font-family: var(--font-head); font-weight: 600; font-size: 0.9rem; color: var(--ink); }
+.tcc-meter .bar { height: 8px; border-radius: 999px; background: rgba(255, 255, 255, 0.07); overflow: hidden; }
+.tcc-meter .fill { height: 100%; border-radius: 999px; transition: width 0.6s var(--ease); }
+.tcc-meter.good    .fill { background: linear-gradient(90deg, #0a8a0a, #0ca30c); }
+.tcc-meter.warning .fill { background: linear-gradient(90deg, #d69712, #fab219); }
+.tcc-meter.serious .fill { background: linear-gradient(90deg, #d96b41, #ec835a); }
+.tcc-meter.critical .fill { background: linear-gradient(90deg, #b22f2f, #d03b3b); }
+.tcc-meter .tag { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.05em; margin-left: 8px; }
+.tcc-meter.good    .tag { color: #2fbf2f; }
+.tcc-meter.warning .tag { color: #fab219; }
+.tcc-meter.serious .tag { color: #ec835a; }
+.tcc-meter.critical .tag { color: #e05252; }
+
+/* ---- glass containers (st.container(border=True)) -------------------------- */
+[data-testid="stVerticalBlockBorderWrapper"] > div {
+  border: 1px solid var(--edge) !important;
+  border-radius: 18px !important;
+  background: linear-gradient(160deg, var(--glass-hi), var(--glass-lo)) !important;
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+  transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+[data-testid="stVerticalBlockBorderWrapper"] > div:hover { border-color: rgba(255, 255, 255, 0.14); }
+
+/* ---- st.metric fallback styling -------------------------------------------- */
+[data-testid="stMetric"] {
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 1px solid var(--edge);
+  background: linear-gradient(160deg, var(--glass-hi), var(--glass-lo));
+  backdrop-filter: blur(14px);
+  transition: transform 0.25s var(--ease), border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+[data-testid="stMetric"]:hover { transform: translateY(-3px); border-color: var(--edge-hot); box-shadow: var(--glow); }
+[data-testid="stMetricLabel"] p { font-size: 0.76rem !important; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted) !important; }
+[data-testid="stMetricValue"] { font-size: 1.75rem !important; font-weight: 700; }
+
+/* ---- sidebar ---------------------------------------------------------------- */
+[data-testid="stSidebar"] {
+  background: linear-gradient(185deg, #0e1322 0%, #0b0f1b 100%);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+[data-testid="stSidebar"] > div { background: transparent; }
+.tcc-brand { display: flex; align-items: center; gap: 11px; padding: 6px 2px 14px; }
+.tcc-brand .mark {
+  width: 38px; height: 38px; border-radius: 13px;
+  display: grid; place-items: center; font-size: 19px;
+  background: radial-gradient(circle at 30% 25%, #ffb86b, #ff6b4a 55%, #d03b3b);
+  box-shadow: 0 0 22px rgba(255, 107, 74, 0.45);
+}
+.tcc-brand .t1 { font-family: var(--font-head); font-weight: 700; font-size: 1.02rem; color: var(--ink); line-height: 1.15; }
+.tcc-brand .t2 { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.05em; }
+
+/* sidebar radio → nav pills */
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] { gap: 4px; }
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] label {
+  display: flex; align-items: center;
+  width: 100%;
+  padding: 10px 13px;
+  margin: 0;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background 0.2s var(--ease), border-color 0.2s var(--ease), color 0.2s var(--ease), transform 0.2s var(--ease);
+}
+/* hide the native radio circle (the 16px first div of the option row) —
+   the hidden <input> lives in a separate visually-hidden span, so keyboard
+   focus and clicks are unaffected */
+[data-testid="stSidebar"] [data-testid="stRadioOption"] > div > div > div:first-child {
+  display: none;
+}
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] label p { font-size: 0.92rem; font-weight: 500; }
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] label:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--ink);
+  transform: translateX(3px);
+}
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] label:has(input:checked) {
+  background: linear-gradient(135deg, rgba(255, 107, 74, 0.17), rgba(255, 184, 107, 0.06));
+  border-color: var(--edge-hot);
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(255, 107, 74, 0.12), 0 4px 16px rgba(239, 83, 48, 0.14);
+}
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] label:has(input:checked) p { font-weight: 600; }
+[data-testid="stSidebar"] hr {
+  border: none; height: 1px; margin: 0.9rem 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+}
+.tcc-side-note { font-size: 0.76rem; color: var(--muted); line-height: 1.55; }
+.tcc-side-note b { color: var(--ink-2); }
+
+/* ---- buttons ----------------------------------------------------------------- */
+.stButton > button, .stDownloadButton > button, [data-testid="stLinkButton"] a {
+  background: linear-gradient(135deg, var(--accent) 0%, #e8484f 100%);
+  color: #ffffff !important;
+  font-weight: 600;
+  border: 0;
+  border-radius: 12px;
+  padding: 0.55rem 1.05rem;
+  box-shadow: 0 4px 18px rgba(239, 83, 48, 0.25);
+  transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease), filter 0.2s var(--ease);
+}
+.stButton > button:hover, .stDownloadButton > button:hover, [data-testid="stLinkButton"] a:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.07);
+  box-shadow: 0 8px 26px rgba(239, 83, 48, 0.38);
+}
+.stButton > button:active, .stDownloadButton > button:active { transform: translateY(0); }
+.stButton > button:focus-visible, .stDownloadButton > button:focus-visible {
+  outline: 2px solid var(--amber); outline-offset: 2px;
+}
+
+/* ---- inputs / selects ---------------------------------------------------------- */
+.stSelectbox [data-baseweb="select"] > div,
+.stMultiSelect [data-baseweb="select"] > div,
+.stTextInput input, .stNumberInput input {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  border-radius: 12px !important;
+  color: var(--ink) !important;
+  transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+.stSelectbox [data-baseweb="select"] > div:hover { border-color: var(--edge-hot) !important; }
+.stSelectbox [data-baseweb="select"] > div:focus-within {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px rgba(255, 107, 74, 0.18) !important;
+}
+[data-baseweb="popover"] [role="listbox"] {
+  background: #131a29 !important;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+}
+[data-baseweb="popover"] [role="option"]:hover { background: rgba(255, 107, 74, 0.12) !important; }
+.stSelectbox label p, .stRadio > label p { color: var(--muted) !important; font-size: 0.8rem !important; letter-spacing: 0.05em; text-transform: uppercase; }
+
+/* ---- dataframes ------------------------------------------------------------------ */
+[data-testid="stDataFrame"] {
+  border: 1px solid var(--edge);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+/* ---- alerts (st.info etc.) -------------------------------------------------------- */
+[data-testid="stAlert"] {
+  background: rgba(77, 163, 255, 0.07);
+  border: 1px solid rgba(77, 163, 255, 0.22);
+  border-radius: 14px;
+  backdrop-filter: blur(8px);
+}
+[data-testid="stAlert"] p { color: var(--ink-2); }
+
+/* ---- dividers ---------------------------------------------------------------------- */
+[data-testid="stMainBlockContainer"] hr {
+  border: none; height: 1px; margin: 1.4rem 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.14), transparent);
+}
+
+/* ---- tabs (if used) ----------------------------------------------------------------- */
+.stTabs [data-baseweb="tab-list"] { gap: 6px; background: transparent; }
+.stTabs [data-baseweb="tab"] {
+  border-radius: 11px; padding: 7px 16px;
+  background: var(--glass-hi); border: 1px solid var(--edge);
+  color: var(--ink-2); font-weight: 500;
+}
+.stTabs [aria-selected="true"] {
+  background: linear-gradient(135deg, rgba(255, 107, 74, 0.17), rgba(255, 184, 107, 0.06)) !important;
+  border-color: var(--edge-hot) !important;
+  color: #fff !important;
+}
+.stTabs [data-baseweb="tab-highlight"], .stTabs [data-baseweb="tab-border"] { display: none; }
+
+/* ---- scrollbar ----------------------------------------------------------------------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: #2a3348; border-radius: 999px;
+  border: 2px solid var(--page);
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 107, 74, 0.55); }
+
+/* ---- motion -------------------------------------------------------------------------- */
+@keyframes tcc-fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
